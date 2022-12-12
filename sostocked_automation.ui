@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>828</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SoStocked Automation</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1351</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_1">
+     <attribute name="title">
+      <string>Update SoStocked WH Inventory</string>
+     </attribute>
+     <widget class="QCommandLinkButton" name="commandLinkButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>941</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 2: Convert to SoStocked Warehouse Inventory Template</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>50</y>
+        <width>841</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>: </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open File</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>1291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Saved to: </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>941</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 1: Download the latest Shipping Tree Warehouse Inventory from Shopify's Analytics Reports (Units Sold)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>941</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 3: Import the saved file to SoStocked using Bulk Export/Import setting</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Send to Amazon Workflow</string>
+     </attribute>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>941</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 1: Go to SoStocked's Forecasts page &amp; choose any TRANSFERS forecast dashboard. Then, download it as an excel with the Consolidated Forecast w/ Profits option toggled.</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>1281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Saved to:</string>
+      </property>
+     </widget>
+     <widget class="QCommandLinkButton" name="commandLinkButton_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>931</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 2: Convert to Amazon Manifest Worklow Template</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open File</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>50</y>
+        <width>851</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>721</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 3: Upload the saved file to a Send to Amazon workflow in sellercentral.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>731</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 4: After confirming shipping, download each shipment's packing list.</string>
+      </property>
+     </widget>
+     <widget class="QCommandLinkButton" name="commandLinkButton_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>941</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 5: Convert each shipment's Pack List to SoStocked Import Shipment Template</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>210</y>
+        <width>691</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open File</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>280</y>
+        <width>1291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Saved to: </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>931</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 5: Create a new SoStocked Work Order. If there are multiple shipments, split the shipment and upload each saved file.</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
