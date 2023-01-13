@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>995</width>
-    <height>385</height>
+    <width>828</width>
+    <height>408</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,12 +25,12 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>961</width>
+      <width>1351</width>
       <height>551</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab_1">
      <attribute name="title">
@@ -80,7 +80,7 @@
        <rect>
         <x>50</x>
         <y>120</y>
-        <width>911</width>
+        <width>1291</width>
         <height>31</height>
        </rect>
       </property>
@@ -114,6 +114,19 @@
        <string>Step 3: Import the saved file to SoStocked using Bulk Export/Import setting</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>350</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; text-decoration: underline; color:#ff0000;&quot;&gt;Note: Always keep the Master Data File.xlsx up-to-date&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
@@ -143,7 +156,7 @@
        <rect>
         <x>50</x>
         <y>120</y>
-        <width>751</width>
+        <width>1281</width>
         <height>31</height>
        </rect>
       </property>
@@ -213,7 +226,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Step 4: After confirming shipping, download each shipment's packing list.</string>
+       <string>Step 4: After confirming shipping, download each shipment's box &amp; shipping labels (US Letter PDF format).</string>
       </property>
      </widget>
      <widget class="QCommandLinkButton" name="commandLinkButton_3">
@@ -260,7 +273,7 @@
        <rect>
         <x>50</x>
         <y>280</y>
-        <width>911</width>
+        <width>1291</width>
         <height>31</height>
        </rect>
       </property>
@@ -278,7 +291,33 @@
        </rect>
       </property>
       <property name="text">
-       <string>Step 5: Create a new SoStocked Work Order. If there are multiple shipments, split the shipment and upload each saved file.</string>
+       <string>Step 5: Create a ST work order and upload all necessary files.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>340</y>
+        <width>931</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Step 6: Finally. create a new SoStocked Work Order, and then upload each shipment template.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>350</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; text-decoration: underline; color:#ff0000;&quot;&gt;Note: Always update Restock Limits in SoStocked&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>

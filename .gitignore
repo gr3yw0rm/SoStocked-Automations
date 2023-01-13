@@ -1,6 +1,7 @@
 *.xls*
 *.csv
 *.pdf
+*.exe
 sostocked_env/
 .vscode/
 __pycache/

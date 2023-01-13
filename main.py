@@ -4,8 +4,9 @@ from PyQt5 import uic
 from PyQt5 import QtGui
 import os
 import sys
-from sostocked_templates import update_inventory, send_to_amazon, split_shipment
-from amazon_packinglist import add_amazon_sku
+from sostocked_templates import update_inventory, send_to_amazon
+from amazon_packinglist import create_shippinguploads
+
 
 
 class UI(QMainWindow):
@@ -90,9 +91,9 @@ class UI(QMainWindow):
         self.label_7.setText(f'Saved to: /{saved_location}')
 
     def convert_shipmentPacklist(self):
-        """Converts Amazon shipment packing list to SoStocked import shipment & ST upload files"""
+        """Scrapes & converts Amazon shipment packing list to SoStocked import shipment & ST upload files"""
         try:
-            sostocked_saved_location = split_shipment(self.amazon_packlist)
+            sostocked_saved_location = create_shippinguploads(self.amazon_packlist)
             st_saved_location = ""
             saved_location = f"{sostocked_saved_location}\n{st_saved_location}"
         except:
@@ -107,3 +108,5 @@ if __name__ == '__main__':
     UIWindow = UI()
     app.exec()
     print(__name__)
+    # pyinstaller 'sostocked automations.spec'
+    # pyinstaller --onefile --noconsole --ico=sostocked.ico main.py        

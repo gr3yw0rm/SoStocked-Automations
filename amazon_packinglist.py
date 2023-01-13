@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
+from sostocked_templates import sostocked_shipment
 
 """
 To do:
@@ -26,10 +27,10 @@ elif __file__:
 
 # Folder locations
 downloads_folder = os.path.join(os.environ.get('HOMEPATH'), 'Downloads')
-shippingtreeDirectory = os.path.join(currentDirectory, 'Shipping Tree Uploads')
+amazonShipmentsDirectory = os.path.join(currentDirectory, 'Amazon Shipments')
 
 # Check for dump folders
-os.makedirs(shippingtreeDirectory, exist_ok=True)
+os.makedirs(amazonShipmentsDirectory, exist_ok=True)
 
 # Master Data File
 masterData = pd.read_excel('Master Data File.xlsx')
@@ -119,13 +120,16 @@ def scrape_packlist(doc):
                         # Ship to FC location (SMF3)
                         if 'ship to:' in span['text'].lower():
                             shipToBlockNumber = block['number'] + 2     # bottom of SHIP TO:
-                            shipTo = pageBlocks[shipToBlockNumber]['lines'][0]['spans'][0]['text']
+                            FC_location = pageBlocks[shipToBlockNumber]['lines'][0]['spans'][0]['text']
                             shipAddress1 = pageBlocks[shipToBlockNumber + 1]['lines'][0]['spans'][0]['text']
                             shipAddress2 = pageBlocks[shipToBlockNumber + 2]['lines'][0]['spans'][0]['text']
                             shipAddress3 = pageBlocks[shipToBlockNumber + 3]['lines'][0]['spans'][0]['text']
-                            shipAddress = shipAddress1 + shipAddress2 + ', ' + shipAddress3 + f' ({shipTo})'
-                        # Shipment Name & Shipment Number (ST to AMZ Oct 2022 Shipment 2)
-                        if 'shipment' in span['text'].lower():
+                            shipAddress = shipAddress1 + shipAddress2 + ', ' + shipAddress3
+                        # Shipment Name & Shipment Number 
+                        if 'st to amz' in span['text'].lower(): # 1 shipment (ST to AMZ Oct 2022)
+                            shipmentName = span['text']
+                            shipmentNumber = 'Shipment 1'
+                        if 'shipment' in span['text'].lower(): # multiple shipments (ST to AMZ Oct 2022 Shipment 2)
                             shipmentName = re.findall(r'(.+) Shipment', span['text'])[0]
                             shipmentNumber  = re.findall(r'.+ (Shipment \d+)', span['text'])[0]
                         # Date Created (Created: 2022/10/14 09:05 PDT (-07))
@@ -162,10 +166,9 @@ def scrape_packlist(doc):
             data.loc[data.SKU==sku, 'Boxes'] += 1
             data.loc[data.SKU==sku, 'Box Label #'] += f' - {boxLabel}'
 
-    metadata = pd.DataFrame({'Shipment Name': [shipmentName], 'Shipment Number': [shipmentNumber], 
-                'Shipment ID': [shipmentId], 'Shipping Address': [shipAddress]})
-    print(metadata)
-    return data, metadata
+    data[['Shipment Name', 'Shipment Number', 'Fulfillment Center', 
+                                'Shipment ID', 'Shipping Address']] = shipmentName, shipmentNumber, FC_location, shipmentId, shipAddress
+    return data
 
 
 def summarize_packlists(directory):
@@ -179,11 +182,8 @@ def summarize_packlists(directory):
         # checks if shipping box label
         if filename.endswith('Box Labels.pdf'):
             with fitz.open(filepath) as doc:
-                data, metadata = scrape_packlist(doc)
-                metadata = pd.concat([metadata] * len(data), ignore_index=True)
-                metadata['SKU'] = data['SKU']
-                mergedData = pd.merge(data, metadata, how='inner', on='SKU')
-                summary = pd.concat([summary, mergedData], axis=0, ignore_index=True)
+                data = scrape_packlist(doc)
+                summary = pd.concat([summary, data], axis=0, ignore_index=True)
 
     save_location = os.path.join(directory, 'Shipping Plan Summary.xlsx')
     summary.to_excel(save_location, index=False)
@@ -205,21 +205,7 @@ def shippingtree_orderimport(directory):
     return
 
 
-def create_shipingplan(data, metadata):     # depracated
-    title = f"{metadata['Shipment Name'].values[0]} - {metadata['Shipment Number'].values[0]}"
-    fileName = f"{title} shipping plan.pdf"
-    with PdfPages(fileName) as pdf:
-        print(title)
-        fig, axs = plt.subplots(figsize=(8.27, 11.69))
-        fig.suptitle(title + '\n' + metadata['Shipment ID'].values[0] + '\n' + metadata['Shipping Address'].values[0])
-        axs.axis('tight')
-        axs.axis('off')
-        table = axs.table(cellText=data.values, colLabels=data.columns, loc='upper center', fontsize=1)
-        plt.show()
-        pdf.savefig(fig, bbox_inches='tight')
-
-
-def scrape_add_packinglist(file):
+def create_shippinguploads(file):
     """
     Scrape and add Amazon shipment & box labels
     Input: file name of the pdf file
@@ -228,26 +214,27 @@ def scrape_add_packinglist(file):
     with fitz.open(file) as doc:
         doc = fitz.open(file)
     # Scrapes relevant information
-    data, metadata = scrape_packlist(doc)
+    data = scrape_packlist(doc)
     # Creates shipment folder
-    shipmentDirectory = os.path.join(shippingtreeDirectory, metadata['Shipment Name'].values[0])
+    shipmentDirectory = os.path.join(amazonShipmentsDirectory, data['Shipment Name'].values[0])
     print(f"Creating folder {shipmentDirectory}")
     os.makedirs(shipmentDirectory, exist_ok=True)
     # Fixes broken SKUs & save it to the shipment folder
-    file_name = f"{metadata['Shipment Name'].values[0]} - {metadata['Shipment Number'].values[0]} Box Labels.pdf"
+    file_name = f"{data['Shipment Name'].values[0]} - {data['Shipment Number'].values[0]} Box Labels.pdf"
     save_location = os.path.join(shipmentDirectory, file_name)
     add_amazon_sku(doc, save_location)
     # Scrapes all box labels & creates shipping plan summary
     summarize_packlists(shipmentDirectory)
     # ST order-import-template
     shippingtree_orderimport(shipmentDirectory)
-    return shipmentDirectory
+    # SoStocked template shipment uploads
+    sostockedImportShipmentDirectory = sostocked_shipment(data, shipmentDirectory)
+    return sostockedImportShipmentDirectory
 
 
 
 if __name__ == '__main__':
-    file = os.path.join(downloads_folder, 'package-FBA16VFPZNRP.pdf')
-    scrape_add_packinglist(file)
-
+    file = os.path.join(downloads_folder, 'package-FBA16XNXWGYX.pdf')
+    create_shippinguploads(file)
     # with fitz.open(file) as doc:
-    #     scrape_packlist(doc)1
+    #     scrape_packlist(doc)
