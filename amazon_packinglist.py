@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 from sostocked_templates import sostocked_shipment
+from xlsxwriter.utility import xl_rowcol_to_cell
 
 """
 To do:
@@ -33,7 +34,7 @@ amazonShipmentsDirectory = os.path.join(currentDirectory, 'Amazon Shipments')
 os.makedirs(amazonShipmentsDirectory, exist_ok=True)
 
 # Master Data File
-masterData = pd.read_excel('Master Data File.xlsx')
+masterData = pd.read_excel('Master Data File.xlsx', sheet_name='All Products').dropna(how='all').fillna('')
 
 def add_amazon_sku(doc, save_location):
     """
@@ -96,67 +97,50 @@ def scrape_packlist(doc):
     Scrapes relevant information of Amazon's shipment & box list for ST and SoStocked uploading
     Input: fitz doc
     Return: pandas df
+    Note: Amazon started sending multiple shipments in one packlist
     """
     print("Scraping packing list")
     data = pd.DataFrame(columns=['Product Description', 'SKU', 'Quantity', 'PCS/Box', 'Boxes', 'Box Label #'])
 
     for page in doc:
-        # Skips shipment label in 'Thermal' format
-        if "PLEASE LEAVE THIS LABEL UNCOVERED" not in page.get_text('json'):
-            print("NOT IN PAGE COVER")
-            continue
-        pageText = json.loads(page.get_text('json'))
-        pageBlocks = pageText['blocks']
+        rows = page.get_text().split('\n')
+        print(rows)
 
-        # Scrapes page > blocks > lines > span > span['texts]
-        for block in pageBlocks:    # iterates through blocks, lines & spans
-            try:
-                for line in block['lines']:
-                    for span in line['spans']:
-                        # Box label and weight (Box 4 of 4 - 46.30lb)
-                        if 'box' and 'lb' in span['text'].lower():
-                            boxLabel  = re.findall(r'\d+', span['text'])[0]
-                            boxWeight = span['text'].split('-')[1].strip()
-                        # Ship to FC location (SMF3)
-                        if 'ship to:' in span['text'].lower():
-                            shipToBlockNumber = block['number'] + 2     # bottom of SHIP TO:
-                            FC_location = pageBlocks[shipToBlockNumber]['lines'][0]['spans'][0]['text']
-                            shipAddress1 = pageBlocks[shipToBlockNumber + 1]['lines'][0]['spans'][0]['text']
-                            shipAddress2 = pageBlocks[shipToBlockNumber + 2]['lines'][0]['spans'][0]['text']
-                            shipAddress3 = pageBlocks[shipToBlockNumber + 3]['lines'][0]['spans'][0]['text']
-                            shipAddress = shipAddress1 + shipAddress2 + ', ' + shipAddress3
-                        # Shipment Name & Shipment Number 
-                        if 'st to amz' in span['text'].lower(): # 1 shipment (ST to AMZ Oct 2022)
-                            shipmentName = span['text']
-                            shipmentNumber = 'Shipment 1'
-                        if 'shipment' in span['text'].lower(): # multiple shipments (ST to AMZ Oct 2022 Shipment 2)
-                            shipmentName = re.findall(r'(.+) Shipment', span['text'])[0]
-                            shipmentNumber  = re.findall(r'.+ (Shipment \d+)', span['text'])[0]
-                        # Date Created (Created: 2022/10/14 09:05 PDT (-07))
-                        if 'created:' in span['text'].lower():
-                            dateCreated = re.findall(r'Created: (.+) ', span['text'])[0]
-                        # FBA Box ID  (FBA16XNXHNS9U000004), SKU & Quantity
-                        if re.match(r'^FBA\w', span['text']):
-                            fbaBoxIdNumber = span['text'] 
-                            shipmentId     = fbaBoxIdNumber.split('U000')[0]
-                            fbaBoxIdBlockNumber = block['number']
-                            skuBlockNumber = fbaBoxIdBlockNumber + 2    # bottom of FBA box id
-                            sku = pageBlocks[skuBlockNumber]['lines'][0]['spans'][0]['text']
-                            # fixes sku
-                            if '...' in sku:
-                                splittedSKU = sku.split('...')[0]
-                                sku = masterData[masterData['SKU'].str.startswith(splittedSKU)]['SKU'].values[0]
-                            quantityBlockNumber = skuBlockNumber + 1
-                            quantity = int(pageBlocks[quantityBlockNumber]['lines'][0]['spans'][0]['text'].split()[-1])
-                            # other data from the master file
-                            rowData = masterData[masterData.SKU == sku]
-                            productDescription = rowData['Product Description'].values[0]
-                            unitsPerBox = int(rowData['Units per box'].values[0])
-
-            # An error occured: line not found in block
-            except Exception as e:
-                print(f"#ERROR! {e}")
-                pass
+        # scraping though regrex & index positions
+        for index, row in enumerate(rows):
+            # Box label and weight (Box 4 of 4 - 46.30lb)
+            if 'box' and 'lb' in row.lower():
+                boxLabel  = re.findall(r'Box (\d+)', row, re.I)[0]
+                boxWeight = re.findall(r'(\d+)\s?lb', row, re.I)[0]
+            # Ship to FC location (SMF3)
+            elif 'ship to:' in row.lower():
+                FC_location = rows[index + 2]
+                shipAddress = f"{rows[index+3]} {rows[index+4]}, {rows[index+5]}"
+            # Shipment Name & Shipment Number 
+            elif 'created:' in row.lower():
+                dateCreated  = re.findall(r'Created: (.+) ', row, re.I)[0]
+                shipmentName =  re.sub(r"[/:]", "-", rows[index - 1])
+                print(f"Shipment Name IS: {shipmentName}")
+                if 'shipment' in shipmentName: # multiple shipments (ST to AMZ Oct 2022 Shipment 2)
+                    shipmentNumber  = re.findall(r'.+ (Shipment \d+)', span['text'])[0]
+                else: # only 1 shipment (ST to AMZ Oct 2022)
+                    shipmentNumber = 'Shipment 1'
+            # FBA Box ID (FBA16XNXHNS9U000004)
+            elif re.match(r'^FBA\w', row, re.IGNORECASE):
+                fbaBoxIdNumber = row
+                shipmentId     = fbaBoxIdNumber.split('U000')[0]
+            # SKU, Quantity & other product details
+            elif 'qty' in row.lower():
+                quantity = int(re.findall(r'(\d+)', row)[0])
+                sku = rows[index-1]
+                # fixes sku
+                if '...' in sku:
+                    splittedSKU = sku.split('...')[0]
+                    sku = masterData[masterData['SKU'].str.startswith(splittedSKU)]['SKU'].values[0]
+                # other data from the master file
+                rowData = masterData[masterData.SKU == sku]
+                productDescription = rowData['Product Description'].values[0]
+                unitsPerBox = int(rowData['Units per box'].values[0])
 
         # merging data
         if not any(data['SKU'].str.contains(sku)):
@@ -175,6 +159,7 @@ def summarize_packlists(directory):
     """Scrapes all shipping & box labels in a directory & summarizes it in a excel
     Input: full directory path
     Output: Excel shipping summary"""
+    # scrapes data to pandas
     summary = pd.DataFrame()
 
     for filename in os.listdir(directory):
@@ -184,8 +169,28 @@ def summarize_packlists(directory):
             with fitz.open(filepath) as doc:
                 data = scrape_packlist(doc)
                 summary = pd.concat([summary, data], axis=0, ignore_index=True)
-
+    # writing & formatting to excel
     save_location = os.path.join(directory, 'Shipping Plan Summary.xlsx')
+    # writer = pd.ExcelWriter(save_location)
+    # summary.to_excel(writer, index=False, sheet_name='Summary')
+    # workbook = writer.book
+    # worksheet = writer.sheets['Summary']
+    # worksheet.set_zoom(90)
+    # # cell formats
+    # header_format = workbook.add_format({'valign': 'vcenter',
+    #                                         'align': 'center',
+    #                                         'bold': True})
+    # subheader_format = workbook.add_format({'bold': True,
+    #                                         'bg_color': '#951f06',
+    #                                         'font_color': '#FFFFFF'})
+    # format = workbook.add_format({'align': 'center'})
+    # columns = ['Product Description', 'SKU', 'Quantity', 'PCS/Box', 'Boxes', 'Box Label #']
+    # data = summary[columns]
+    # # writing column headers
+    # for col_num, value in enumerate(summary.columns.values):
+    #     worksheet.write(2, col_num, value, header_format)
+
+
     summary.to_excel(save_location, index=False)
     return
 
@@ -234,7 +239,7 @@ def create_shippinguploads(file):
 
 
 if __name__ == '__main__':
-    file = os.path.join(downloads_folder, 'package-FBA16XNXWGYX.pdf')
+    file = os.path.join(downloads_folder, 'package-FBA170YJ3X3G.pdf')
     create_shippinguploads(file)
     # with fitz.open(file) as doc:
     #     scrape_packlist(doc)

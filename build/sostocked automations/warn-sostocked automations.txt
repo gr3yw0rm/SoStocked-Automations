@@ -208,7 +208,6 @@ missing module named pyarrow - imported by pandas.core.arrays.masked (delayed), 
 missing module named 'scipy.stats' - imported by pandas.core.nanops (delayed, conditional), pandas.plotting._matplotlib.misc (delayed, conditional), pandas.plotting._matplotlib.hist (delayed)
 missing module named 'pyarrow.compute' - imported by pandas.core.arrays.string_arrow (conditional), pandas.core.arrays.arrow.array (conditional)
 missing module named xlwt - imported by pandas.io.excel._xlwt (delayed, conditional)
-missing module named xlsxwriter - imported by pandas.io.excel._xlsxwriter (delayed, conditional)
 missing module named 'defusedxml.ElementTree' - imported by openpyxl.xml.functions (conditional)
 missing module named tests - imported by openpyxl.reader.excel (optional)
 missing module named 'odf.config' - imported by pandas.io.excel._odswriter (delayed)

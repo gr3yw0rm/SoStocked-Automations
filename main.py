@@ -109,4 +109,4 @@ if __name__ == '__main__':
     app.exec()
     print(__name__)
     # pyinstaller 'sostocked automations.spec'
-    # pyinstaller --onefile --noconsole --ico=sostocked.ico main.py        
+    # pyinstaller --onefile --noconsole --ico=sostocked.ico --name "sostocked automations" main.py

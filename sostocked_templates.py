@@ -28,7 +28,7 @@ os.makedirs(amazonManifestsDirectory, exist_ok=True)
 
 # Master data file
 masterDataFile = os.path.join(currentDirectory, 'Master Data File.xlsx')
-activeProducts = pd.read_excel(masterDataFile, sheet_name='All Products')
+activeProducts = pd.read_excel(masterDataFile, sheet_name='All Products').dropna(how='all').fillna('')
 activeProducts = activeProducts.loc[activeProducts['Status'] == 'Active']
 
 # Template locations
@@ -104,7 +104,7 @@ def send_to_amazon(file=None):
     template_location = os.path.join(currentDirectory, 'Templates', 'Manifest Workflow Template.xlsx')
     shutil.copy(template_location, workflowTemplate)
 
-    with pd.ExcelWriter(workflowTemplate, mode='a', if_sheet_exists='overlay') as writer:
+    with pd.ExcelWriter(workflowTemplate, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
         workflowTransfers.to_excel(writer, startrow=6, header=False, index=False, sheet_name='Create workflow – template')
 
     return workflowTemplate
@@ -132,7 +132,7 @@ def split_shipment(file):
     packList[['Units Arrived', 'Cost Per Unit']] = 0
     packList = packList[['ASIN Marketplace', 'ASIN', 'SKU Marketplace', 'SKU', 'FN SKU Marketplace', 'FNSKU', 'Total units', 'Units Arrived', 'Cost Per Unit']]
 
-    with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay') as writer:
+    with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
         packList.to_excel(writer, startrow=1, header=False, index=False, sheet_name='Edit Shipment Import Export')
     
     return sostockedImportShipmentDirectory
@@ -156,13 +156,13 @@ def sostocked_shipment(data, directory):
     shutil.copy(shipmentTemplate_location, sostockedImportShipmentDirectory)
     print(cleanData)
 
-    with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay') as writer:
+    with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
         cleanData.to_excel(writer, startrow=1, header=False, index=False, sheet_name='Edit Shipment Import Export')
 
     return sostockedImportShipmentDirectory
 
 
 if __name__ == '__main__':
-    file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-20221130092232-8999.xlsx')
+    file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-20230119082749-6300 (2).xlsx')
     send_to_amazon(file)
     pass

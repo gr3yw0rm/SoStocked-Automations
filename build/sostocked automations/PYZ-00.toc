@@ -749,12 +749,6 @@
   ('multiprocessing',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('getpass',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getpass.py',
    'PYMODULE'),
@@ -770,12 +764,150 @@
   ('http.cookiejar',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookiejar.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('amazon_packinglist',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\amazon_packinglist.py',
+   'PYMODULE'),
+  ('xlsxwriter.utility',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\utility.py',
+   'PYMODULE'),
+  ('xlsxwriter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\__init__.py',
+   'PYMODULE'),
+  ('xlsxwriter.workbook',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\workbook.py',
+   'PYMODULE'),
+  ('xlsxwriter.exceptions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\exceptions.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_stock',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_stock.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_scatter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_scatter.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_radar',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_radar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_line',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_line.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_doughnut',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_doughnut.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_column',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_column.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_bar',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_bar.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_area',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_area.py',
+   'PYMODULE'),
+  ('xlsxwriter.packager',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\packager.py',
+   'PYMODULE'),
+  ('xlsxwriter.comments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\comments.py',
+   'PYMODULE'),
+  ('xlsxwriter.table',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\table.py',
+   'PYMODULE'),
+  ('xlsxwriter.vml',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\vml.py',
+   'PYMODULE'),
+  ('xlsxwriter.theme',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\theme.py',
+   'PYMODULE'),
+  ('xlsxwriter.styles',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\styles.py',
+   'PYMODULE'),
+  ('xlsxwriter.relationships',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\relationships.py',
+   'PYMODULE'),
+  ('xlsxwriter.metadata',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\metadata.py',
+   'PYMODULE'),
+  ('xlsxwriter.custom',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\custom.py',
+   'PYMODULE'),
+  ('xlsxwriter.core',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\core.py',
+   'PYMODULE'),
+  ('xlsxwriter.contenttypes',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\contenttypes.py',
+   'PYMODULE'),
+  ('xlsxwriter.app',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\app.py',
+   'PYMODULE'),
+  ('xlsxwriter.format',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\format.py',
+   'PYMODULE'),
+  ('xlsxwriter.sharedstrings',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\sharedstrings.py',
+   'PYMODULE'),
+  ('xlsxwriter.chartsheet',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chartsheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.drawing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\drawing.py',
+   'PYMODULE'),
+  ('xlsxwriter.shape',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\shape.py',
+   'PYMODULE'),
+  ('xlsxwriter.worksheet',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\worksheet.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart_pie',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart_pie.py',
+   'PYMODULE'),
+  ('xlsxwriter.chart',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\chart.py',
+   'PYMODULE'),
+  ('xlsxwriter.xmlwriter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\xlsxwriter\\xmlwriter.py',
    'PYMODULE'),
   ('matplotlib.backends.backend_pdf',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
