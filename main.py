@@ -108,5 +108,5 @@ if __name__ == '__main__':
     UIWindow = UI()
     app.exec()
     print(__name__)
-    # pyinstaller 'sostocked automations.spec'
-    # pyinstaller --onefile --noconsole --ico=sostocked.ico --name "sostocked automations" main.py
+    # $ pyinstaller 'sostocked automations.spec'
+    # $ pyinstaller --onefile --noconsole --ico=sostocked.ico --name "sostocked automations" main.py

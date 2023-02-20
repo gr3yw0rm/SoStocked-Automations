@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 from sostocked_templates import sostocked_shipment
 from xlsxwriter.utility import xl_rowcol_to_cell
+import win32com.client as win32
 
 """
 To do:
@@ -100,7 +101,7 @@ def scrape_packlist(doc):
     Note: Amazon started sending multiple shipments in one packlist
     """
     print("Scraping packing list")
-    data = pd.DataFrame(columns=['Product Description', 'SKU', 'Quantity', 'PCS/Box', 'Boxes', 'Box Label #'])
+    data = pd.DataFrame(columns=['Product Description', 'SKU', 'Qty', 'PCS/Box', 'Boxes', 'Box Label #'])
 
     for page in doc:
         rows = page.get_text().split('\n')
@@ -121,8 +122,8 @@ def scrape_packlist(doc):
                 dateCreated  = re.findall(r'Created: (.+) ', row, re.I)[0]
                 shipmentName =  re.sub(r"[/:]", "-", rows[index - 1])
                 print(f"Shipment Name IS: {shipmentName}")
-                if 'shipment' in shipmentName: # multiple shipments (ST to AMZ Oct 2022 Shipment 2)
-                    shipmentNumber  = re.findall(r'.+ (Shipment \d+)', span['text'])[0]
+                if re.search(r'Shipment \d+', shipmentName, re.I): # multiple shipments (ST to AMZ Oct 2022 Shipment 2)
+                    shipmentNumber  = re.findall(r'(Shipment \d+)', shipmentName, re.I)[0]
                 else: # only 1 shipment (ST to AMZ Oct 2022)
                     shipmentNumber = 'Shipment 1'
             # FBA Box ID (FBA16XNXHNS9U000004)
@@ -146,7 +147,7 @@ def scrape_packlist(doc):
         if not any(data['SKU'].str.contains(sku)):
             data.loc[len(data)] = [productDescription, sku, quantity, unitsPerBox, 1, boxLabel]
         else:
-            data.loc[data.SKU==sku, 'Quantity'] += quantity
+            data.loc[data.SKU==sku, 'Qty'] += quantity
             data.loc[data.SKU==sku, 'Boxes'] += 1
             data.loc[data.SKU==sku, 'Box Label #'] += f' - {boxLabel}'
 
@@ -158,40 +159,74 @@ def scrape_packlist(doc):
 def summarize_packlists(directory):
     """Scrapes all shipping & box labels in a directory & summarizes it in a excel
     Input: full directory path
-    Output: Excel shipping summary"""
-    # scrapes data to pandas
-    summary = pd.DataFrame()
+    Output: Excel & PDF shipping summary"""
+    # summarizes packlists
+    detailed_summary = pd.DataFrame()
+    shipment_summary = {} # to pdf format
 
     for filename in os.listdir(directory):
         filepath = os.path.join(directory, filename)
         # checks if shipping box label
         if filename.endswith('Box Labels.pdf'):
+            print(filename)
             with fitz.open(filepath) as doc:
                 data = scrape_packlist(doc)
-                summary = pd.concat([summary, data], axis=0, ignore_index=True)
+                detailed_summary = pd.concat([detailed_summary, data], axis=0, ignore_index=True)
+                shipment_summary[data['Shipment Number'].values[0]] = data
+
     # writing & formatting to excel
     save_location = os.path.join(directory, 'Shipping Plan Summary.xlsx')
-    # writer = pd.ExcelWriter(save_location)
-    # summary.to_excel(writer, index=False, sheet_name='Summary')
-    # workbook = writer.book
-    # worksheet = writer.sheets['Summary']
-    # worksheet.set_zoom(90)
-    # # cell formats
-    # header_format = workbook.add_format({'valign': 'vcenter',
-    #                                         'align': 'center',
-    #                                         'bold': True})
-    # subheader_format = workbook.add_format({'bold': True,
-    #                                         'bg_color': '#951f06',
-    #                                         'font_color': '#FFFFFF'})
-    # format = workbook.add_format({'align': 'center'})
-    # columns = ['Product Description', 'SKU', 'Quantity', 'PCS/Box', 'Boxes', 'Box Label #']
-    # data = summary[columns]
-    # # writing column headers
-    # for col_num, value in enumerate(summary.columns.values):
-    #     worksheet.write(2, col_num, value, header_format)
+    with pd.ExcelWriter(save_location, engine='xlsxwriter') as writer:
+        pd.DataFrame().to_excel(writer, index=False, sheet_name='Summary') # blank sheet
+        workbook = writer.book
+        worksheet = writer.sheets['Summary']
+        worksheet.set_zoom(100)
+        worksheet.set_margins(0.15, 0.15, 0.75, 0.75)
+        left_format   = workbook.add_format({'align': 'left', 'valign': 'vcenter', 'text_wrap': True})
+        center_format = workbook.add_format({'align': 'center', 'valign': 'vcenter', 'text_wrap': True})
+        worksheet.set_column('A:A', 33, left_format)
+        worksheet.set_column('B:B', 33, left_format)
+        worksheet.set_column('C:C', 4, center_format)
+        worksheet.set_column('D:D', 7, center_format)
+        worksheet.set_column('E:E', 5, center_format)
+        worksheet.set_column('F:F', 17, left_format)
+        # writing title
+        merged_title_format = workbook.add_format({'font_size': 20, 'bold': 1, 'align': 'center', 'valign': 'vcenter'})
+        worksheet.merge_range('A1:F1', "Shipping Plan Summary", merged_title_format)
+        # writing summary per shipment
+        start_row = 2
+        for shipment in shipment_summary:
+            # writing shipment name above table
+            shipmentName        = shipment_summary[shipment]['Shipment Name'].values[0]
+            shipmentName_cell   = xl_rowcol_to_cell(start_row, 0)
+            shipmentName_format = workbook.add_format({'font_size': 14, 'valign': 'vcenter', 'align': 'left', 'bold': True})
+            worksheet.write(shipmentName_cell, shipmentName, shipmentName_format)
+            start_row += 1
+            # writing column headers
+            pdf_cols = ['Product Description', 'SKU', 'Qty', 'PCS/Box', 'Boxes', 'Box Label #']
+            shipment_data = shipment_summary[shipment][pdf_cols]
+            header_format = workbook.add_format({'bold': True, 'bg_color': '#951f06', 'font_color': '#FFFFFF'})
+            for col_num, value in enumerate(shipment_data.columns.values):
+                cell = xl_rowcol_to_cell(start_row, col_num)
+                worksheet.write(cell, value, header_format)
+            start_row += 1
+            # writing shipment data
+            shipment_data.to_excel(writer, startrow=start_row, index=False, header=False, sheet_name='Summary')
+            start_row += shipment_data.shape[0] + 1
+        # detailed summary on sheet2
+        detailed_summary.to_excel(writer, index=False, sheet_name='Detailed Summary')
+        worksheet2 = writer.sheets['Detailed Summary']
+        worksheet2.set_zoom(60)
+        worksheet.freeze_panes(1, 0)
+        worksheet2.autofit()
 
-
-    summary.to_excel(save_location, index=False)
+    # converting shipment summary to pdf
+    pdf_save_location = os.path.join(directory, 'Shipping Plan Summary.pdf')
+    excel = win32.gencache.EnsureDispatch('Excel.Application')
+    wb = excel.Workbooks.Open(save_location)
+    wb.ActiveSheet.ExportAsFixedFormat(0, pdf_save_location)
+    wb.Close()
+    excel.Quit()
     return
 
 
@@ -202,7 +237,7 @@ def shippingtree_orderimport(directory):
 
     order_import = pd.DataFrame(columns=['sku', 'quantity'])
     for sku in summary['SKU'].unique():
-        total_quantity = summary.loc[summary.SKU == sku, 'Quantity'].sum()
+        total_quantity = summary.loc[summary.SKU == sku, 'Qty'].sum()
         order_import.loc[len(order_import)] = [sku, total_quantity]
 
     save_location = os.path.join(directory, 'order-import-template.csv')
@@ -229,6 +264,7 @@ def create_shippinguploads(file):
     save_location = os.path.join(shipmentDirectory, file_name)
     add_amazon_sku(doc, save_location)
     # Scrapes all box labels & creates shipping plan summary
+    print(shipmentDirectory)
     summarize_packlists(shipmentDirectory)
     # ST order-import-template
     shippingtree_orderimport(shipmentDirectory)
@@ -237,9 +273,6 @@ def create_shippinguploads(file):
     return sostockedImportShipmentDirectory
 
 
-
 if __name__ == '__main__':
-    file = os.path.join(downloads_folder, 'package-FBA170YJ3X3G.pdf')
+    file = os.path.join(downloads_folder, 'package-FBA170PTJ05J.pdf')
     create_shippinguploads(file)
-    # with fitz.open(file) as doc:
-    #     scrape_packlist(doc)
