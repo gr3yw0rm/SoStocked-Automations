@@ -97,11 +97,14 @@ def scrape_packlist(doc):
     """
     Scrapes relevant information of Amazon's shipment & box list for ST and SoStocked uploading
     Input: fitz doc
-    Return: pandas df
+    Return: 2 pandas df
     Note: Amazon started sending multiple shipments in one packlist
     """
     print("Scraping packing list")
-    data = pd.DataFrame(columns=['Product Description', 'SKU', 'Qty', 'PCS/Box', 'Boxes', 'Box Label #'])
+    detailed_data = pd.DataFrame(columns=['Product Description', 'SKU', 'Qty', 'PCS/Box', 'Boxes', 'Box Label #', 
+                                          'Shipment Name', 'Shipment Number', 'Fulfillment Center', 
+                                          'Shipment ID', 'Shipping Address'])
+    pdf_data = pd.DataFrame(columns=['Product Description', 'SKU', 'Qty', 'PCS/Box', 'Boxes', 'Box Label #', 'Shipment Name', 'Shipment Number'])
 
     for page in doc:
         rows = page.get_text().split('\n')
@@ -142,37 +145,34 @@ def scrape_packlist(doc):
                 rowData = masterData[masterData.SKU == sku]
                 productDescription = rowData['Product Description'].values[0]
                 unitsPerBox = int(rowData['Units per box'].values[0])
-
-        # merging data
-        if not any(data['SKU'].str.contains(sku)):
-            data.loc[len(data)] = [productDescription, sku, quantity, unitsPerBox, 1, boxLabel]
+    
+        # adding row to detailed summary data
+        page_data = pd.DataFrame([{'Product Description': productDescription, 'SKU': sku, 'Qty': quantity, 'PCS/Box': unitsPerBox, 'Boxes': 1, 
+                     'Box Label #': boxLabel, 'Shipment Name': shipmentName, 'Shipment Number': shipmentNumber, 
+                     'Fulfillment Center': FC_location, 'Shipment ID': shipmentId, 'Shipping Address': shipAddress}])
+        detailed_data = pd.concat([detailed_data, page_data], ignore_index=True)
+                
+        # aggregating data for the PDF summary data
+        if not any(pdf_data['SKU'].str.contains(sku)): # if exists
+            pdf_data.loc[len(pdf_data)] = [productDescription, sku, quantity, unitsPerBox, 1, boxLabel, shipmentName]
         else:
-            data.loc[data.SKU==sku, 'Qty'] += quantity
-            data.loc[data.SKU==sku, 'Boxes'] += 1
-            data.loc[data.SKU==sku, 'Box Label #'] += f' - {boxLabel}'
-
-    data[['Shipment Name', 'Shipment Number', 'Fulfillment Center', 
-                                'Shipment ID', 'Shipping Address']] = shipmentName, shipmentNumber, FC_location, shipmentId, shipAddress
-    return data
+            pdf_data.loc[pdf_data.SKU==sku, 'Qty'] += quantity
+            pdf_data.loc[pdf_data.SKU==sku, 'Boxes'] += 1
+            pdf_data.loc[pdf_data.SKU==sku, 'Box Label #'] += f' - {boxLabel}'
+    return pdf_data, detailed_data
 
 
 def summarize_packlists(directory):
     """Scrapes all shipping & box labels in a directory & summarizes it in a excel
     Input: full directory path
     Output: Excel & PDF shipping summary"""
-    # summarizes packlists
-    detailed_summary = pd.DataFrame()
-    shipment_summary = {} # to pdf format
-
     for filename in os.listdir(directory):
         filepath = os.path.join(directory, filename)
         # checks if shipping box label
         if filename.endswith('Box Labels.pdf'):
             print(filename)
             with fitz.open(filepath) as doc:
-                data = scrape_packlist(doc)
-                detailed_summary = pd.concat([detailed_summary, data], axis=0, ignore_index=True)
-                shipment_summary[data['Shipment Number'].values[0]] = data
+                shipment_summary, detailed_summary = scrape_packlist(doc)
 
     # writing & formatting to excel
     save_location = os.path.join(directory, 'Shipping Plan Summary.xlsx')
@@ -193,11 +193,12 @@ def summarize_packlists(directory):
         # writing title
         merged_title_format = workbook.add_format({'font_size': 20, 'bold': 1, 'align': 'center', 'valign': 'vcenter'})
         worksheet.merge_range('A1:F1', "Shipping Plan Summary", merged_title_format)
-        # writing summary per shipment
+        # writing summary per shipment number
         start_row = 2
-        for shipment in shipment_summary:
+        for shipment_no in shipment_summary['Shipment Number'].unique():
+            shipmentData = shipment_summary[shipment_summary['Shipment Number'] == shipment_no]
             # writing shipment name above table
-            shipmentName        = shipment_summary[shipment]['Shipment Name'].values[0]
+            shipmentName        = shipmentData['Shipment Name'].values[0]
             shipmentName_cell   = xl_rowcol_to_cell(start_row, 0)
             shipmentName_format = workbook.add_format({'font_size': 14, 'valign': 'vcenter', 'align': 'left', 'bold': True})
             worksheet.write(shipmentName_cell, shipmentName, shipmentName_format)
@@ -233,7 +234,7 @@ def summarize_packlists(directory):
 def shippingtree_orderimport(directory):
     """Creates Shipping Tree order template csv from the 'Shipping Plan Summary.xlsx'"""
     filepath = os.path.join(directory, 'Shipping Plan Summary.xlsx')
-    summary = pd.read_excel(filepath)
+    summary = pd.read_excel(filepath, sheet_name='Detailed Summary')
 
     order_import = pd.DataFrame(columns=['sku', 'quantity'])
     for sku in summary['SKU'].unique():
@@ -254,13 +255,13 @@ def create_shippinguploads(file):
     with fitz.open(file) as doc:
         doc = fitz.open(file)
     # Scrapes relevant information
-    data = scrape_packlist(doc)
+    pdf_data, detailed_data = scrape_packlist(doc)
     # Creates shipment folder
-    shipmentDirectory = os.path.join(amazonShipmentsDirectory, data['Shipment Name'].values[0])
+    shipmentDirectory = os.path.join(amazonShipmentsDirectory, detailed_data['Shipment Name'].values[0])
     print(f"Creating folder {shipmentDirectory}")
     os.makedirs(shipmentDirectory, exist_ok=True)
     # Fixes broken SKUs & save it to the shipment folder
-    file_name = f"{data['Shipment Name'].values[0]} - {data['Shipment Number'].values[0]} Box Labels.pdf"
+    file_name = f"{detailed_data['Shipment Name'].values[0]} - {detailed_data['Shipment Number'].values[0]} Box Labels.pdf"
     save_location = os.path.join(shipmentDirectory, file_name)
     add_amazon_sku(doc, save_location)
     # Scrapes all box labels & creates shipping plan summary
@@ -269,10 +270,14 @@ def create_shippinguploads(file):
     # ST order-import-template
     shippingtree_orderimport(shipmentDirectory)
     # SoStocked template shipment uploads
-    sostockedImportShipmentDirectory = sostocked_shipment(data, shipmentDirectory)
+    sostockedImportShipmentDirectory = sostocked_shipment(shipmentDirectory)
     return sostockedImportShipmentDirectory
 
 
 if __name__ == '__main__':
     file = os.path.join(downloads_folder, 'package-FBA170PTJ05J.pdf')
     create_shippinguploads(file)
+    # with fitz.open(file) as doc:
+    #     doc = fitz.open(file)
+    # # Scrapes relevant information
+    # data = scrape_packlist(doc)

@@ -138,31 +138,35 @@ def split_shipment(file):
     return sostockedImportShipmentDirectory
 
 
-def sostocked_shipment(data, directory):
+def sostocked_shipment(directory):
     """Converts scraped data from Amazon box labels into SoStocked Shipment template.
     Then saves it into a assigned shipping directory.
-    Input: scraped data from amazon_packinglist.py
+    Input: Amazon shipment directory
     Output: SoStocked upload shipment template"""
-    # Cleans scraped data
-    cleanData = pd.DataFrame(columns=['ASIN Marketplace', 'ASIN', 'SKU Marketplace', 'SKU', 'FN SKU Marketplace', 
-                                            'FNSKU', 'Quantity', 'Units Arrived', 'Cost Per Unit'])
-    for sku in data['SKU'].unique():
-        total_quantity = data.loc[data.SKU == sku, 'Quantity'].sum()
-        cleanData.loc[len(cleanData), ['SKU', 'Quantity']] = sku, total_quantity
-    
-    # Creates new & writes to template
-    file_name = f"SoStocked Import {data['Shipment Number'][0]} - {data['Fulfillment Center'][0]}.xlsx"
-    sostockedImportShipmentDirectory = os.path.join(directory, file_name)
-    shutil.copy(shipmentTemplate_location, sostockedImportShipmentDirectory)
-    print(cleanData)
-
-    with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
-        cleanData.to_excel(writer, startrow=1, header=False, index=False, sheet_name='Edit Shipment Import Export')
+    shippingPlanSummaryPath = os.path.join(directory, 'Shipping Plan Summary.xlsx')
+    detailed_data = pd.read_excel(shippingPlanSummaryPath, sheet_name='Detailed Summary')
+    # groups data by SKU & FC location
+    grouped_data = detailed_data.groupby(['SKU', 'Fulfillment Center']).sum().reset_index()
+       
+    # Creates new & writes to template for each FC
+    for i, fc in enumerate(grouped_data['Fulfillment Center'].unique()):
+        cleanData = pd.DataFrame(columns=['ASIN Marketplace', 'ASIN', 'SKU Marketplace', 'SKU', 'FN SKU Marketplace', 
+                                                'FNSKU', 'Quantity', 'Units Arrived', 'Cost Per Unit'])
+        cleanData[['SKU', 'Quantity']] = grouped_data.loc[grouped_data['Fulfillment Center'] == fc, ['SKU', 'Qty']]
+        file_name = f"SoStocked Import Shipment {i + 1} - {fc}.xlsx"
+        # moves sostocked blank shipment template to amazon shipment directory
+        sostockedImportShipmentDirectory = os.path.join(directory, file_name)
+        shutil.copy(shipmentTemplate_location, sostockedImportShipmentDirectory)
+        print(cleanData)
+        with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
+            cleanData.to_excel(writer, startrow=1, header=False, index=False, sheet_name='Edit Shipment Import Export')
 
     return sostockedImportShipmentDirectory
 
 
 if __name__ == '__main__':
-    file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-20230119082749-6300 (2).xlsx')
-    send_to_amazon(file)
+    # file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-20230119082749-6300 (2).xlsx')
+    # send_to_amazon(file)
+    directory = os.path.join(os.getcwd(), 'Amazon Shipments', 'ST to AMZ Oct 2022')
+    sostocked_shipment(directory)
     pass
