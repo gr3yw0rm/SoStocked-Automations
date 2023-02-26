@@ -261,6 +261,46 @@
   ('gzip',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gzip.py',
    'PYMODULE'),
+  ('traitlets.traitlets',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\traitlets.py',
+   'PYMODULE'),
+  ('traitlets',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\__init__.py',
+   'PYMODULE'),
+  ('traitlets.utils.decorators',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\decorators.py',
+   'PYMODULE'),
+  ('traitlets.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\__init__.py',
+   'PYMODULE'),
+  ('traitlets._version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\_version.py',
+   'PYMODULE'),
+  ('traitlets.utils.sentinel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\sentinel.py',
+   'PYMODULE'),
+  ('traitlets.utils.importstring',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\importstring.py',
+   'PYMODULE'),
+  ('traitlets.utils.getargspec',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\getargspec.py',
+   'PYMODULE'),
+  ('traitlets.utils.descriptions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\descriptions.py',
+   'PYMODULE'),
+  ('traitlets.utils.bunch',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\bunch.py',
+   'PYMODULE'),
   ('pkg_resources',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pkg_resources\\__init__.py',
@@ -609,6 +649,143 @@
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
    'PYMODULE'),
+  ('win32com.shell.shellcon',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('win32com',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('win32com.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('winerror',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.client',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('commctrl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('pywintypes',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('pywin32_system32', '-', 'PYMODULE'),
+  ('win32com.server',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('pythoncom',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
   ('pkg_resources._vendor',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
@@ -749,6 +926,15 @@
   ('multiprocessing',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'PYMODULE'),
   ('getpass',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getpass.py',
    'PYMODULE'),
@@ -763,15 +949,6 @@
    'PYMODULE'),
   ('http.cookiejar',
    'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookiejar.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('amazon_packinglist',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
@@ -2313,6 +2490,52 @@
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
    'PYMODULE'),
+  ('psutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\__init__.py',
+   'PYMODULE'),
+  ('psutil._psaix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_psaix.py',
+   'PYMODULE'),
+  ('psutil._pssunos',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_pssunos.py',
+   'PYMODULE'),
+  ('psutil._psbsd',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_psbsd.py',
+   'PYMODULE'),
+  ('psutil._psosx',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_psosx.py',
+   'PYMODULE'),
+  ('psutil._pswindows',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_pswindows.py',
+   'PYMODULE'),
+  ('psutil._pslinux',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_pslinux.py',
+   'PYMODULE'),
+  ('psutil._psposix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_psposix.py',
+   'PYMODULE'),
+  ('psutil._compat',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_compat.py',
+   'PYMODULE'),
+  ('psutil._common',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\psutil\\_common.py',
+   'PYMODULE'),
+  ('curses',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\curses\\has_key.py',
+   'PYMODULE'),
   ('numpy.array_api',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\numpy\\array_api\\__init__.py',
@@ -2660,6 +2883,159 @@
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\matplotlib\\backends\\backend_webagg.py',
    'PYMODULE'),
+  ('tornado.template',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\template.py',
+   'PYMODULE'),
+  ('tornado.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\util.py',
+   'PYMODULE'),
+  ('tornado.log',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\log.py',
+   'PYMODULE'),
+  ('tornado.options',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\options.py',
+   'PYMODULE'),
+  ('colorama',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('win32evtlogutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\win32evtlogutil.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\smtplib.py',
+   'PYMODULE'),
+  ('tornado.escape',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\escape.py',
+   'PYMODULE'),
+  ('tornado.websocket',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\websocket.py',
+   'PYMODULE'),
+  ('tornado.tcpclient',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\tcpclient.py',
+   'PYMODULE'),
+  ('tornado.netutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\netutil.py',
+   'PYMODULE'),
+  ('tornado.queues',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\queues.py',
+   'PYMODULE'),
+  ('tornado.locks',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\locks.py',
+   'PYMODULE'),
+  ('tornado.simple_httpclient',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\simple_httpclient.py',
+   'PYMODULE'),
+  ('tornado.http1connection',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\http1connection.py',
+   'PYMODULE'),
+  ('tornado.iostream',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\iostream.py',
+   'PYMODULE'),
+  ('tornado.httputil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\httputil.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('tornado.httpclient',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\httpclient.py',
+   'PYMODULE'),
+  ('tornado.gen',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\gen.py',
+   'PYMODULE'),
+  ('tornado.concurrent',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\concurrent.py',
+   'PYMODULE'),
+  ('tornado.ioloop',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\ioloop.py',
+   'PYMODULE'),
+  ('tornado.process',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\process.py',
+   'PYMODULE'),
+  ('tornado.platform.asyncio',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\platform\\asyncio.py',
+   'PYMODULE'),
+  ('tornado.platform',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\platform\\__init__.py',
+   'PYMODULE'),
+  ('tornado.web',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\web.py',
+   'PYMODULE'),
+  ('tornado.autoreload',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\autoreload.py',
+   'PYMODULE'),
+  ('tornado.routing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\routing.py',
+   'PYMODULE'),
+  ('tornado.locale',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\locale.py',
+   'PYMODULE'),
+  ('tornado._locale_data',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\_locale_data.py',
+   'PYMODULE'),
+  ('tornado.httpserver',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\httpserver.py',
+   'PYMODULE'),
+  ('tornado.tcpserver',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\tcpserver.py',
+   'PYMODULE'),
+  ('tornado',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\tornado\\__init__.py',
+   'PYMODULE'),
   ('matplotlib.backends.backend_webagg_core',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\matplotlib\\backends\\backend_webagg_core.py',
@@ -2727,6 +3103,3340 @@
   ('matplotlib.backend_bases',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\matplotlib\\backend_bases.py',
+   'PYMODULE'),
+  ('IPython.core.pylabtools',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\pylabtools.py',
+   'PYMODULE'),
+  ('matplotlib_inline.backend_inline',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\matplotlib_inline\\backend_inline.py',
+   'PYMODULE'),
+  ('matplotlib_inline.config',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\matplotlib_inline\\config.py',
+   'PYMODULE'),
+  ('traitlets.config.configurable',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\config\\configurable.py',
+   'PYMODULE'),
+  ('traitlets.config',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\config\\__init__.py',
+   'PYMODULE'),
+  ('traitlets.config.application',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\config\\application.py',
+   'PYMODULE'),
+  ('traitlets.utils.nested_update',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\nested_update.py',
+   'PYMODULE'),
+  ('logging.config',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\config.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('traitlets.config.argcomplete_config',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\config\\argcomplete_config.py',
+   'PYMODULE'),
+  ('traitlets.log',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\log.py',
+   'PYMODULE'),
+  ('traitlets.config.loader',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\config\\loader.py',
+   'PYMODULE'),
+  ('traitlets.utils.text',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\traitlets\\utils\\text.py',
+   'PYMODULE'),
+  ('IPython.core.getipython',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\getipython.py',
+   'PYMODULE'),
+  ('IPython.core.interactiveshell',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\interactiveshell.py',
+   'PYMODULE'),
+  ('IPython.utils._process_win32',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\_process_win32.py',
+   'PYMODULE'),
+  ('IPython.utils.encoding',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\encoding.py',
+   'PYMODULE'),
+  ('IPython.utils._process_common',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\_process_common.py',
+   'PYMODULE'),
+  ('IPython.core.magics',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\__init__.py',
+   'PYMODULE'),
+  ('IPython.core.magics.script',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\script.py',
+   'PYMODULE'),
+  ('IPython.core.magic_arguments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magic_arguments.py',
+   'PYMODULE'),
+  ('IPython.core.magics.pylab',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\pylab.py',
+   'PYMODULE'),
+  ('IPython.core.magics.packaging',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\packaging.py',
+   'PYMODULE'),
+  ('IPython.core.magics.osm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\osm.py',
+   'PYMODULE'),
+  ('IPython.utils.terminal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\terminal.py',
+   'PYMODULE'),
+  ('IPython.core.magics.namespace',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\namespace.py',
+   'PYMODULE'),
+  ('IPython.core.magics.logging',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\logging.py',
+   'PYMODULE'),
+  ('IPython.core.magics.history',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\history.py',
+   'PYMODULE'),
+  ('IPython.core.magics.extension',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\extension.py',
+   'PYMODULE'),
+  ('IPython.core.magics.execution',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\execution.py',
+   'PYMODULE'),
+  ('IPython.utils.timing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\timing.py',
+   'PYMODULE'),
+  ('IPython.utils.module_paths',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\module_paths.py',
+   'PYMODULE'),
+  ('IPython.utils.contexts',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\contexts.py',
+   'PYMODULE'),
+  ('IPython.utils.capture',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\capture.py',
+   'PYMODULE'),
+  ('pstats',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pstats.py',
+   'PYMODULE'),
+  ('cProfile',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\cProfile.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\optparse.py',
+   'PYMODULE'),
+  ('profile',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\profile.py',
+   'PYMODULE'),
+  ('IPython.core.magics.display',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\display.py',
+   'PYMODULE'),
+  ('IPython.core.magics.config',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\config.py',
+   'PYMODULE'),
+  ('IPython.core.magics.code',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\code.py',
+   'PYMODULE'),
+  ('IPython.core.release',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\release.py',
+   'PYMODULE'),
+  ('IPython.core.magics.basic',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\basic.py',
+   'PYMODULE'),
+  ('IPython.core.magics.auto',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magics\\auto.py',
+   'PYMODULE'),
+  ('IPython.core.completerlib',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\completerlib.py',
+   'PYMODULE'),
+  ('IPython.core.completer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\completer.py',
+   'PYMODULE'),
+  ('jedi.api.classes',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\classes.py',
+   'PYMODULE'),
+  ('jedi.api.completion_cache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\completion_cache.py',
+   'PYMODULE'),
+  ('jedi.api',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\__init__.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\utils.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\__init__.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.typeshed',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\typeshed.py',
+   'PYMODULE'),
+  ('jedi.inference.value.iterable',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\iterable.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\base.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.annotation',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\annotation.py',
+   'PYMODULE'),
+  ('jedi.inference.param',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\param.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.type_var',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\type_var.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.typing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\typing.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled.value',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\value.py',
+   'PYMODULE'),
+  ('jedi.inference.docstrings',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\docstrings.py',
+   'PYMODULE'),
+  ('jedi.inference.docstring_utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\docstring_utils.py',
+   'PYMODULE'),
+  ('jedi.inference.signature',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\signature.py',
+   'PYMODULE'),
+  ('jedi.inference.star_args',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\star_args.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled.access',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\access.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled.getattr_static',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\getattr_static.py',
+   'PYMODULE'),
+  ('jedi.inference.value.klass',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\klass.py',
+   'PYMODULE'),
+  ('jedi.plugins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\plugins\\__init__.py',
+   'PYMODULE'),
+  ('jedi.plugins.registry',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\plugins\\registry.py',
+   'PYMODULE'),
+  ('jedi.plugins.django',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\plugins\\django.py',
+   'PYMODULE'),
+  ('jedi.inference.value.instance',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\instance.py',
+   'PYMODULE'),
+  ('jedi.plugins.pytest',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\plugins\\pytest.py',
+   'PYMODULE'),
+  ('jedi.plugins.flask',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\plugins\\flask.py',
+   'PYMODULE'),
+  ('jedi.plugins.stdlib',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\plugins\\stdlib.py',
+   'PYMODULE'),
+  ('jedi.inference.value.function',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\function.py',
+   'PYMODULE'),
+  ('jedi.inference.parser_cache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\parser_cache.py',
+   'PYMODULE'),
+  ('jedi.inference.flow_analysis',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\flow_analysis.py',
+   'PYMODULE'),
+  ('jedi.inference.recursion',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\recursion.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.generics',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\generics.py',
+   'PYMODULE'),
+  ('jedi.inference.value.dynamic_arrays',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\dynamic_arrays.py',
+   'PYMODULE'),
+  ('jedi.inference.context',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\context.py',
+   'PYMODULE'),
+  ('jedi.inference.finder',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\finder.py',
+   'PYMODULE'),
+  ('jedi.inference.filters',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\filters.py',
+   'PYMODULE'),
+  ('jedi.inference.cache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\cache.py',
+   'PYMODULE'),
+  ('jedi.inference.lazy_value',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\lazy_value.py',
+   'PYMODULE'),
+  ('jedi.common',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\common.py',
+   'PYMODULE'),
+  ('jedi.inference.analysis',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\analysis.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\__init__.py',
+   'PYMODULE'),
+  ('jedi.inference.value',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\__init__.py',
+   'PYMODULE'),
+  ('jedi.inference.value.module',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\module.py',
+   'PYMODULE'),
+  ('jedi.inference.syntax_tree',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\syntax_tree.py',
+   'PYMODULE'),
+  ('jedi.inference.value.decorator',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\decorator.py',
+   'PYMODULE'),
+  ('jedi.inference.sys_path',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\sys_path.py',
+   'PYMODULE'),
+  ('jedi.inference.helpers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\helpers.py',
+   'PYMODULE'),
+  ('jedi.inference.arguments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\arguments.py',
+   'PYMODULE'),
+  ('jedi.inference.references',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\references.py',
+   'PYMODULE'),
+  ('jedi.inference.imports',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\imports.py',
+   'PYMODULE'),
+  ('jedi.inference.value.namespace',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\value\\namespace.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled.subprocess.functions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\subprocess\\functions.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled.subprocess',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\subprocess\\__init__.py',
+   'PYMODULE'),
+  ('jedi.api.exceptions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\exceptions.py',
+   'PYMODULE'),
+  ('jedi._compatibility',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\_compatibility.py',
+   'PYMODULE'),
+  ('jedi.inference',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\__init__.py',
+   'PYMODULE'),
+  ('jedi.api.refactoring.extract',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\refactoring\\extract.py',
+   'PYMODULE'),
+  ('jedi.api.refactoring',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\refactoring\\__init__.py',
+   'PYMODULE'),
+  ('jedi.api.errors',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\errors.py',
+   'PYMODULE'),
+  ('jedi.api.project',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\project.py',
+   'PYMODULE'),
+  ('jedi.api.environment',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\environment.py',
+   'PYMODULE'),
+  ('filecmp',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\filecmp.py',
+   'PYMODULE'),
+  ('jedi.api.completion',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\completion.py',
+   'PYMODULE'),
+  ('jedi.api.file_name',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\file_name.py',
+   'PYMODULE'),
+  ('jedi.api.strings',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\strings.py',
+   'PYMODULE'),
+  ('parso.python.token',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\token.py',
+   'PYMODULE'),
+  ('jedi.api.interpreter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\interpreter.py',
+   'PYMODULE'),
+  ('jedi.file_io',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\file_io.py',
+   'PYMODULE'),
+  ('parso.file_io',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\file_io.py',
+   'PYMODULE'),
+  ('jedi.parser_utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\parser_utils.py',
+   'PYMODULE'),
+  ('parso.cache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\cache.py',
+   'PYMODULE'),
+  ('parso.python.tree',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\tree.py',
+   'PYMODULE'),
+  ('parso.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\utils.py',
+   'PYMODULE'),
+  ('parso.python.prefix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\prefix.py',
+   'PYMODULE'),
+  ('parso.python.tokenize',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\tokenize.py',
+   'PYMODULE'),
+  ('parso.python',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\__init__.py',
+   'PYMODULE'),
+  ('parso.python.pep8',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\pep8.py',
+   'PYMODULE'),
+  ('parso.normalizer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\normalizer.py',
+   'PYMODULE'),
+  ('parso.python.errors',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\errors.py',
+   'PYMODULE'),
+  ('parso',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\__init__.py',
+   'PYMODULE'),
+  ('parso.grammar',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\grammar.py',
+   'PYMODULE'),
+  ('parso.python.parser',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\parser.py',
+   'PYMODULE'),
+  ('parso.python.diff',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\python\\diff.py',
+   'PYMODULE'),
+  ('parso.pgen2',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\pgen2\\__init__.py',
+   'PYMODULE'),
+  ('parso.pgen2.generator',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\pgen2\\generator.py',
+   'PYMODULE'),
+  ('parso.pgen2.grammar_parser',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\pgen2\\grammar_parser.py',
+   'PYMODULE'),
+  ('parso._compatibility',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\_compatibility.py',
+   'PYMODULE'),
+  ('parso.parser',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\parser.py',
+   'PYMODULE'),
+  ('jedi.api.keywords',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\keywords.py',
+   'PYMODULE'),
+  ('jedi.inference.base_value',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\base_value.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.conversion',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\conversion.py',
+   'PYMODULE'),
+  ('jedi.inference.gradual.stub_value',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\gradual\\stub_value.py',
+   'PYMODULE'),
+  ('jedi.inference.names',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\names.py',
+   'PYMODULE'),
+  ('jedi.inference.dynamic_params',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\dynamic_params.py',
+   'PYMODULE'),
+  ('jedi.inference.compiled.mixed',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\compiled\\mixed.py',
+   'PYMODULE'),
+  ('jedi.cache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\cache.py',
+   'PYMODULE'),
+  ('jedi.inference.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\inference\\utils.py',
+   'PYMODULE'),
+  ('jedi.debug',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\debug.py',
+   'PYMODULE'),
+  ('jedi.settings',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\settings.py',
+   'PYMODULE'),
+  ('parso.tree',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\parso\\tree.py',
+   'PYMODULE'),
+  ('jedi.api.helpers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\api\\helpers.py',
+   'PYMODULE'),
+  ('jedi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jedi\\__init__.py',
+   'PYMODULE'),
+  ('IPython.utils.docs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\docs.py',
+   'PYMODULE'),
+  ('IPython.utils.dir2',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\dir2.py',
+   'PYMODULE'),
+  ('IPython.utils.generics',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\generics.py',
+   'PYMODULE'),
+  ('IPython.core.latex_symbols',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\latex_symbols.py',
+   'PYMODULE'),
+  ('IPython.core.guarded_eval',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\guarded_eval.py',
+   'PYMODULE'),
+  ('site',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('_sitebuiltins',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_sitebuiltins.py',
+   'PYMODULE'),
+  ('IPython.core.async_helpers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\async_helpers.py',
+   'PYMODULE'),
+  ('IPython.utils.text',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\text.py',
+   'PYMODULE'),
+  ('IPython.utils.syspathcontext',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\syspathcontext.py',
+   'PYMODULE'),
+  ('IPython.utils.strdispatch',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\strdispatch.py',
+   'PYMODULE'),
+  ('IPython.utils.process',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\process.py',
+   'PYMODULE'),
+  ('IPython.utils._process_posix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\_process_posix.py',
+   'PYMODULE'),
+  ('IPython.utils._process_cli',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\_process_cli.py',
+   'PYMODULE'),
+  ('IPython.utils.path',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\path.py',
+   'PYMODULE'),
+  ('IPython.utils.ipstruct',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\ipstruct.py',
+   'PYMODULE'),
+  ('IPython.utils.py3compat',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\py3compat.py',
+   'PYMODULE'),
+  ('IPython.utils.openpy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\openpy.py',
+   'PYMODULE'),
+  ('IPython.utils.io',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\io.py',
+   'PYMODULE'),
+  ('IPython.utils.PyColorize',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\PyColorize.py',
+   'PYMODULE'),
+  ('IPython.utils.colorable',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\colorable.py',
+   'PYMODULE'),
+  ('pygments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\__init__.py',
+   'PYMODULE'),
+  ('pygments.styles.zenburn',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\zenburn.py',
+   'PYMODULE'),
+  ('pygments.token',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\token.py',
+   'PYMODULE'),
+  ('pygments.style',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\style.py',
+   'PYMODULE'),
+  ('pygments.styles.xcode',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\xcode.py',
+   'PYMODULE'),
+  ('pygments.styles.vs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\vs.py',
+   'PYMODULE'),
+  ('pygments.styles.vim',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\vim.py',
+   'PYMODULE'),
+  ('pygments.styles.trac',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\trac.py',
+   'PYMODULE'),
+  ('pygments.styles.tango',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\tango.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_light',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\stata_light.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_dark',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\stata_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.staroffice',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\staroffice.py',
+   'PYMODULE'),
+  ('pygments.styles.solarized',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\solarized.py',
+   'PYMODULE'),
+  ('pygments.styles.sas',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\sas.py',
+   'PYMODULE'),
+  ('pygments.styles.rrt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\rrt.py',
+   'PYMODULE'),
+  ('pygments.styles.rainbow_dash',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\rainbow_dash.py',
+   'PYMODULE'),
+  ('pygments.styles.perldoc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\perldoc.py',
+   'PYMODULE'),
+  ('pygments.styles.pastie',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\pastie.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_light',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\paraiso_light.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_dark',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\paraiso_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.onedark',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\onedark.py',
+   'PYMODULE'),
+  ('pygments.styles.nord',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\nord.py',
+   'PYMODULE'),
+  ('pygments.styles.native',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\native.py',
+   'PYMODULE'),
+  ('pygments.styles.murphy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\murphy.py',
+   'PYMODULE'),
+  ('pygments.styles.monokai',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\monokai.py',
+   'PYMODULE'),
+  ('pygments.styles.material',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\material.py',
+   'PYMODULE'),
+  ('pygments.styles.manni',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\manni.py',
+   'PYMODULE'),
+  ('pygments.styles.lovelace',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\lovelace.py',
+   'PYMODULE'),
+  ('pygments.styles.lilypond',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\lilypond.py',
+   'PYMODULE'),
+  ('pygments.styles.inkpot',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\inkpot.py',
+   'PYMODULE'),
+  ('pygments.styles.igor',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\igor.py',
+   'PYMODULE'),
+  ('pygments.styles.gruvbox',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\gruvbox.py',
+   'PYMODULE'),
+  ('pygments.styles.gh_dark',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\gh_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.fruity',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\fruity.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly_grayscale',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\friendly_grayscale.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\friendly.py',
+   'PYMODULE'),
+  ('pygments.styles.emacs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\emacs.py',
+   'PYMODULE'),
+  ('pygments.styles.dracula',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\dracula.py',
+   'PYMODULE'),
+  ('pygments.styles.default',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\default.py',
+   'PYMODULE'),
+  ('pygments.styles.colorful',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\colorful.py',
+   'PYMODULE'),
+  ('pygments.styles.bw',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\bw.py',
+   'PYMODULE'),
+  ('pygments.styles.borland',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\borland.py',
+   'PYMODULE'),
+  ('pygments.styles.autumn',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\autumn.py',
+   'PYMODULE'),
+  ('pygments.styles.arduino',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\arduino.py',
+   'PYMODULE'),
+  ('pygments.styles.algol_nu',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\algol_nu.py',
+   'PYMODULE'),
+  ('pygments.styles.algol',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\algol.py',
+   'PYMODULE'),
+  ('pygments.styles.abap',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\abap.py',
+   'PYMODULE'),
+  ('pygments.styles',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\styles\\__init__.py',
+   'PYMODULE'),
+  ('pygments.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\util.py',
+   'PYMODULE'),
+  ('pygments.plugin',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\plugin.py',
+   'PYMODULE'),
+  ('pygments.lexers.zig',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\zig.py',
+   'PYMODULE'),
+  ('pygments.lexers.yang',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\yang.py',
+   'PYMODULE'),
+  ('pygments.lexers.xorg',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\xorg.py',
+   'PYMODULE'),
+  ('pygments.lexers.x10',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\x10.py',
+   'PYMODULE'),
+  ('pygments.lexers.wren',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\wren.py',
+   'PYMODULE'),
+  ('pygments.lexers.wowtoc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\wowtoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.whiley',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\whiley.py',
+   'PYMODULE'),
+  ('pygments.lexers.webmisc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\webmisc.py',
+   'PYMODULE'),
+  ('pygments.lexers.webidl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\webidl.py',
+   'PYMODULE'),
+  ('pygments.lexers.webassembly',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\webassembly.py',
+   'PYMODULE'),
+  ('pygments.lexers.web',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\web.py',
+   'PYMODULE'),
+  ('pygments.lexers.verification',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\verification.py',
+   'PYMODULE'),
+  ('pygments.lexers.varnish',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\varnish.py',
+   'PYMODULE'),
+  ('pygments.lexers.usd',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\usd.py',
+   'PYMODULE'),
+  ('pygments.lexers.urbi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\urbi.py',
+   'PYMODULE'),
+  ('pygments.lexers.unicon',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\unicon.py',
+   'PYMODULE'),
+  ('pygments.lexers.ul4',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ul4.py',
+   'PYMODULE'),
+  ('pygments.lexers.typoscript',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\typoscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.trafficscript',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\trafficscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.tnt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\tnt.py',
+   'PYMODULE'),
+  ('pygments.lexers.tlb',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\tlb.py',
+   'PYMODULE'),
+  ('pygments.lexers.thingsdb',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\thingsdb.py',
+   'PYMODULE'),
+  ('pygments.lexers.theorem',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\theorem.py',
+   'PYMODULE'),
+  ('pygments.lexers.textfmts',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\textfmts.py',
+   'PYMODULE'),
+  ('pygments.lexers.textedit',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\textedit.py',
+   'PYMODULE'),
+  ('pygments.lexers.text',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\text.py',
+   'PYMODULE'),
+  ('pygments.lexers.testing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\testing.py',
+   'PYMODULE'),
+  ('pygments.lexers.teraterm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\teraterm.py',
+   'PYMODULE'),
+  ('pygments.lexers.templates',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\templates.py',
+   'PYMODULE'),
+  ('pygments.lexers.teal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\teal.py',
+   'PYMODULE'),
+  ('pygments.lexers.tcl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\tcl.py',
+   'PYMODULE'),
+  ('pygments.lexers.tal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\tal.py',
+   'PYMODULE'),
+  ('pygments.lexers.supercollider',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\supercollider.py',
+   'PYMODULE'),
+  ('pygments.lexers.stata',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\stata.py',
+   'PYMODULE'),
+  ('pygments.lexers.srcinfo',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\srcinfo.py',
+   'PYMODULE'),
+  ('pygments.lexers.sql',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\sql.py',
+   'PYMODULE'),
+  ('pygments.lexers.spice',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\spice.py',
+   'PYMODULE'),
+  ('pygments.lexers.special',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\special.py',
+   'PYMODULE'),
+  ('pygments.lexers.sophia',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\sophia.py',
+   'PYMODULE'),
+  ('pygments.lexers.solidity',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\solidity.py',
+   'PYMODULE'),
+  ('pygments.lexers.snobol',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\snobol.py',
+   'PYMODULE'),
+  ('pygments.lexers.smv',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\smv.py',
+   'PYMODULE'),
+  ('pygments.lexers.smithy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\smithy.py',
+   'PYMODULE'),
+  ('pygments.lexers.smalltalk',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\smalltalk.py',
+   'PYMODULE'),
+  ('pygments.lexers.slash',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\slash.py',
+   'PYMODULE'),
+  ('pygments.lexers.sieve',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\sieve.py',
+   'PYMODULE'),
+  ('pygments.lexers.shell',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\shell.py',
+   'PYMODULE'),
+  ('pygments.lexers.sgf',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\sgf.py',
+   'PYMODULE'),
+  ('pygments.lexers.scripting',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\scripting.py',
+   'PYMODULE'),
+  ('pygments.lexers.scdoc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\scdoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.savi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\savi.py',
+   'PYMODULE'),
+  ('pygments.lexers.sas',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\sas.py',
+   'PYMODULE'),
+  ('pygments.lexers.rust',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\rust.py',
+   'PYMODULE'),
+  ('pygments.lexers.ruby',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ruby.py',
+   'PYMODULE'),
+  ('pygments.lexers.robotframework',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\robotframework.py',
+   'PYMODULE'),
+  ('pygments.lexers.roboconf',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\roboconf.py',
+   'PYMODULE'),
+  ('pygments.lexers.rnc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\rnc.py',
+   'PYMODULE'),
+  ('pygments.lexers.rita',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\rita.py',
+   'PYMODULE'),
+  ('pygments.lexers.ride',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ride.py',
+   'PYMODULE'),
+  ('pygments.lexers.resource',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\resource.py',
+   'PYMODULE'),
+  ('pygments.lexers.rebol',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\rebol.py',
+   'PYMODULE'),
+  ('pygments.lexers.rdf',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\rdf.py',
+   'PYMODULE'),
+  ('pygments.lexers.r',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\r.py',
+   'PYMODULE'),
+  ('pygments.lexers.qvt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\qvt.py',
+   'PYMODULE'),
+  ('pygments.lexers.qlik',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\qlik.py',
+   'PYMODULE'),
+  ('pygments.lexers.q',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\q.py',
+   'PYMODULE'),
+  ('pygments.lexers.python',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\python.py',
+   'PYMODULE'),
+  ('pygments.lexers.promql',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\promql.py',
+   'PYMODULE'),
+  ('pygments.lexers.prolog',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\prolog.py',
+   'PYMODULE'),
+  ('pygments.lexers.procfile',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\procfile.py',
+   'PYMODULE'),
+  ('pygments.lexers.praat',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\praat.py',
+   'PYMODULE'),
+  ('pygments.lexers.pony',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\pony.py',
+   'PYMODULE'),
+  ('pygments.lexers.pointless',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\pointless.py',
+   'PYMODULE'),
+  ('pygments.lexers.php',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\php.py',
+   'PYMODULE'),
+  ('pygments.lexers.phix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\phix.py',
+   'PYMODULE'),
+  ('pygments.lexers.perl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\perl.py',
+   'PYMODULE'),
+  ('pygments.lexers.pawn',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\pawn.py',
+   'PYMODULE'),
+  ('pygments.lexers.pascal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\pascal.py',
+   'PYMODULE'),
+  ('pygments.scanner',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\scanner.py',
+   'PYMODULE'),
+  ('pygments.lexers.parsers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\parsers.py',
+   'PYMODULE'),
+  ('pygments.lexers.parasail',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\parasail.py',
+   'PYMODULE'),
+  ('pygments.lexers.other',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\other.py',
+   'PYMODULE'),
+  ('pygments.lexers.ooc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ooc.py',
+   'PYMODULE'),
+  ('pygments.lexers.objective',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\objective.py',
+   'PYMODULE'),
+  ('pygments.lexers.oberon',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\oberon.py',
+   'PYMODULE'),
+  ('pygments.lexers.nix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\nix.py',
+   'PYMODULE'),
+  ('pygments.lexers.nit',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\nit.py',
+   'PYMODULE'),
+  ('pygments.lexers.nimrod',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\nimrod.py',
+   'PYMODULE'),
+  ('pygments.lexers.ncl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ncl.py',
+   'PYMODULE'),
+  ('pygments.lexers.mosel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\mosel.py',
+   'PYMODULE'),
+  ('pygments.lexers.monte',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\monte.py',
+   'PYMODULE'),
+  ('pygments.lexers.modula2',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\modula2.py',
+   'PYMODULE'),
+  ('pygments.lexers.modeling',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\modeling.py',
+   'PYMODULE'),
+  ('pygments.lexers.ml',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ml.py',
+   'PYMODULE'),
+  ('pygments.lexers.mips',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\mips.py',
+   'PYMODULE'),
+  ('pygments.lexers.minecraft',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\minecraft.py',
+   'PYMODULE'),
+  ('pygments.lexers.mime',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\mime.py',
+   'PYMODULE'),
+  ('pygments.lexers.meson',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\meson.py',
+   'PYMODULE'),
+  ('pygments.lexers.maxima',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\maxima.py',
+   'PYMODULE'),
+  ('pygments.lexers.matlab',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\matlab.py',
+   'PYMODULE'),
+  ('pygments.lexers.math',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\math.py',
+   'PYMODULE'),
+  ('pygments.lexers.markup',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\markup.py',
+   'PYMODULE'),
+  ('pygments.lexers.make',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\make.py',
+   'PYMODULE'),
+  ('pygments.lexers.macaulay2',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\macaulay2.py',
+   'PYMODULE'),
+  ('pygments.lexers.lisp',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\lisp.py',
+   'PYMODULE'),
+  ('pygments.lexers.lilypond',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\lilypond.py',
+   'PYMODULE'),
+  ('pygments.lexers.kuin',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\kuin.py',
+   'PYMODULE'),
+  ('pygments.lexers.jvm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\jvm.py',
+   'PYMODULE'),
+  ('pygments.lexers.julia',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\julia.py',
+   'PYMODULE'),
+  ('pygments.lexers.jsonnet',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\jsonnet.py',
+   'PYMODULE'),
+  ('pygments.lexers.jslt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\jslt.py',
+   'PYMODULE'),
+  ('pygments.lexers.jmespath',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\jmespath.py',
+   'PYMODULE'),
+  ('pygments.lexers.javascript',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\javascript.py',
+   'PYMODULE'),
+  ('pygments.lexers.j',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\j.py',
+   'PYMODULE'),
+  ('pygments.lexers.iolang',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\iolang.py',
+   'PYMODULE'),
+  ('pygments.lexers.int_fiction',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\int_fiction.py',
+   'PYMODULE'),
+  ('pygments.lexers.installers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\installers.py',
+   'PYMODULE'),
+  ('pygments.lexers.inferno',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\inferno.py',
+   'PYMODULE'),
+  ('pygments.lexers.igor',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\igor.py',
+   'PYMODULE'),
+  ('pygments.lexers.idl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\idl.py',
+   'PYMODULE'),
+  ('pygments.lexers.html',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\html.py',
+   'PYMODULE'),
+  ('pygments.lexers.hexdump',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\hexdump.py',
+   'PYMODULE'),
+  ('pygments.lexers.hdl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\hdl.py',
+   'PYMODULE'),
+  ('pygments.lexers.haxe',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\haxe.py',
+   'PYMODULE'),
+  ('pygments.lexers.haskell',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\haskell.py',
+   'PYMODULE'),
+  ('pygments.lexers.gsql',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\gsql.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphviz',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\graphviz.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphics',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\graphics.py',
+   'PYMODULE'),
+  ('pygments.lexers.graph',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\graph.py',
+   'PYMODULE'),
+  ('pygments.lexers.grammar_notation',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\grammar_notation.py',
+   'PYMODULE'),
+  ('pygments.lexers.go',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\go.py',
+   'PYMODULE'),
+  ('pygments.lexers.gdscript',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\gdscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.gcodelexer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\gcodelexer.py',
+   'PYMODULE'),
+  ('pygments.lexers.futhark',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\futhark.py',
+   'PYMODULE'),
+  ('pygments.lexers.functional',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\functional.py',
+   'PYMODULE'),
+  ('pygments.lexers.func',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\func.py',
+   'PYMODULE'),
+  ('pygments.lexers.freefem',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\freefem.py',
+   'PYMODULE'),
+  ('pygments.lexers.foxpro',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\foxpro.py',
+   'PYMODULE'),
+  ('pygments.lexers.fortran',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\fortran.py',
+   'PYMODULE'),
+  ('pygments.lexers.forth',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\forth.py',
+   'PYMODULE'),
+  ('pygments.lexers.floscript',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\floscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.fift',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\fift.py',
+   'PYMODULE'),
+  ('pygments.lexers.felix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\felix.py',
+   'PYMODULE'),
+  ('pygments.lexers.fantom',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\fantom.py',
+   'PYMODULE'),
+  ('pygments.lexers.factor',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\factor.py',
+   'PYMODULE'),
+  ('pygments.lexers.ezhil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ezhil.py',
+   'PYMODULE'),
+  ('pygments.lexers.esoteric',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\esoteric.py',
+   'PYMODULE'),
+  ('pygments.lexers.erlang',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\erlang.py',
+   'PYMODULE'),
+  ('pygments.lexers.email',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\email.py',
+   'PYMODULE'),
+  ('pygments.lexers.elpi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\elpi.py',
+   'PYMODULE'),
+  ('pygments.lexers.elm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\elm.py',
+   'PYMODULE'),
+  ('pygments.lexers.eiffel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\eiffel.py',
+   'PYMODULE'),
+  ('pygments.lexers.ecl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ecl.py',
+   'PYMODULE'),
+  ('pygments.lexers.dylan',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\dylan.py',
+   'PYMODULE'),
+  ('pygments.lexers.dsls',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\dsls.py',
+   'PYMODULE'),
+  ('pygments.lexers.dotnet',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\dotnet.py',
+   'PYMODULE'),
+  ('pygments.lexers.diff',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\diff.py',
+   'PYMODULE'),
+  ('pygments.lexers.devicetree',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\devicetree.py',
+   'PYMODULE'),
+  ('pygments.lexers.data',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\data.py',
+   'PYMODULE'),
+  ('pygments.lexers.dalvik',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\dalvik.py',
+   'PYMODULE'),
+  ('pygments.lexers.d',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\d.py',
+   'PYMODULE'),
+  ('pygments.lexers.css',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\css.py',
+   'PYMODULE'),
+  ('pygments.lexers.csound',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\csound.py',
+   'PYMODULE'),
+  ('pygments.lexers.crystal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\crystal.py',
+   'PYMODULE'),
+  ('pygments.lexers.cplint',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\cplint.py',
+   'PYMODULE'),
+  ('pygments.lexers.console',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\console.py',
+   'PYMODULE'),
+  ('pygments.lexers.configs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\configs.py',
+   'PYMODULE'),
+  ('pygments.lexers.compiled',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\compiled.py',
+   'PYMODULE'),
+  ('pygments.lexers.comal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\comal.py',
+   'PYMODULE'),
+  ('pygments.lexers.clean',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\clean.py',
+   'PYMODULE'),
+  ('pygments.lexers.chapel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\chapel.py',
+   'PYMODULE'),
+  ('pygments.lexers.cddl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\cddl.py',
+   'PYMODULE'),
+  ('pygments.lexers.capnproto',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\capnproto.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_like',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\c_like.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_cpp',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\c_cpp.py',
+   'PYMODULE'),
+  ('pygments.lexers.business',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\business.py',
+   'PYMODULE'),
+  ('pygments.lexers.boa',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\boa.py',
+   'PYMODULE'),
+  ('pygments.lexers.bibtex',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\bibtex.py',
+   'PYMODULE'),
+  ('pygments.lexers.berry',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\berry.py',
+   'PYMODULE'),
+  ('pygments.lexers.bdd',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\bdd.py',
+   'PYMODULE'),
+  ('pygments.lexers.basic',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\basic.py',
+   'PYMODULE'),
+  ('pygments.lexers.bare',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\bare.py',
+   'PYMODULE'),
+  ('pygments.lexers.automation',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\automation.py',
+   'PYMODULE'),
+  ('pygments.lexers.asm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\asm.py',
+   'PYMODULE'),
+  ('pygments.lexers.asc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\asc.py',
+   'PYMODULE'),
+  ('pygments.lexers.arturo',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\arturo.py',
+   'PYMODULE'),
+  ('pygments.lexers.arrow',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\arrow.py',
+   'PYMODULE'),
+  ('pygments.lexers.archetype',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\archetype.py',
+   'PYMODULE'),
+  ('pygments.lexers.apl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\apl.py',
+   'PYMODULE'),
+  ('pygments.lexers.apdlexer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\apdlexer.py',
+   'PYMODULE'),
+  ('pygments.lexers.ampl',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ampl.py',
+   'PYMODULE'),
+  ('pygments.lexers.amdgpu',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\amdgpu.py',
+   'PYMODULE'),
+  ('pygments.lexers.ambient',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ambient.py',
+   'PYMODULE'),
+  ('pygments.lexers.algebra',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\algebra.py',
+   'PYMODULE'),
+  ('pygments.lexers.agile',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\agile.py',
+   'PYMODULE'),
+  ('pygments.unistring',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\unistring.py',
+   'PYMODULE'),
+  ('pygments.lexers.ada',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\ada.py',
+   'PYMODULE'),
+  ('pygments.lexers.actionscript',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\actionscript.py',
+   'PYMODULE'),
+  ('pygments.lexers._vim_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_vim_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._vbscript_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._usd_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_usd_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._tsql_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._stata_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_stata_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._stan_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_stan_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._sourcemod_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scilab_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scheme_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_scheme_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._qlik_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_qlik_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._postgres_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_postgres_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._php_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_php_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._openedge_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._mysql_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._mql_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_mql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._mapping',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.lexers._lua_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_lua_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._lilypond_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_lilypond_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._lasso_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._julia_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_julia_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._css_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_css_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._csound_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_csound_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._cocoa_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._cl_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_cl_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._asy_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_asy_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._ada_builtins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\_ada_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexers\\__init__.py',
+   'PYMODULE'),
+  ('pygments.modeline',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\modeline.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal256',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\terminal256.py',
+   'PYMODULE'),
+  ('pygments.console',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\console.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\terminal.py',
+   'PYMODULE'),
+  ('pygments.formatters.svg',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\svg.py',
+   'PYMODULE'),
+  ('pygments.formatters.rtf',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\rtf.py',
+   'PYMODULE'),
+  ('pygments.formatters.pangomarkup',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\pangomarkup.py',
+   'PYMODULE'),
+  ('pygments.formatters.other',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\other.py',
+   'PYMODULE'),
+  ('pygments.formatters.latex',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\latex.py',
+   'PYMODULE'),
+  ('pygments.formatters.irc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\irc.py',
+   'PYMODULE'),
+  ('pygments.formatters.img',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\img.py',
+   'PYMODULE'),
+  ('PIL.ImageFont',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\PIL\\ImageFont.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\PIL\\ImageDraw.py',
+   'PYMODULE'),
+  ('PIL.ImageDraw2',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\PIL\\ImageDraw2.py',
+   'PYMODULE'),
+  ('PIL.ImagePath',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\PIL\\ImagePath.py',
+   'PYMODULE'),
+  ('pygments.formatters.html',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\html.py',
+   'PYMODULE'),
+  ('pygments.formatters.groff',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\groff.py',
+   'PYMODULE'),
+  ('pygments.formatters.bbcode',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\bbcode.py',
+   'PYMODULE'),
+  ('pygments.formatters._mapping',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.formatters',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.formatter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\formatter.py',
+   'PYMODULE'),
+  ('pygments.lexer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\lexer.py',
+   'PYMODULE'),
+  ('pygments.regexopt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\regexopt.py',
+   'PYMODULE'),
+  ('pygments.filters',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\filters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.filter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pygments\\filter.py',
+   'PYMODULE'),
+  ('IPython.utils.coloransi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\coloransi.py',
+   'PYMODULE'),
+  ('IPython.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\__init__.py',
+   'PYMODULE'),
+  ('IPython.utils._sysinfo',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\_sysinfo.py',
+   'PYMODULE'),
+  ('IPython.testing.skipdoctest',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\testing\\skipdoctest.py',
+   'PYMODULE'),
+  ('IPython.testing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\testing\\__init__.py',
+   'PYMODULE'),
+  ('IPython.paths',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\paths.py',
+   'PYMODULE'),
+  ('IPython.utils.importstring',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\importstring.py',
+   'PYMODULE'),
+  ('IPython.core.usage',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\usage.py',
+   'PYMODULE'),
+  ('IPython.core.profiledir',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\profiledir.py',
+   'PYMODULE'),
+  ('IPython.core.payload',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\payload.py',
+   'PYMODULE'),
+  ('IPython.core.macro',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\macro.py',
+   'PYMODULE'),
+  ('IPython.core.logger',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\logger.py',
+   'PYMODULE'),
+  ('IPython.core.inputtransformer2',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\inputtransformer2.py',
+   'PYMODULE'),
+  ('IPython.core.history',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\history.py',
+   'PYMODULE'),
+  ('decorator',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\decorator.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('IPython.core.formatters',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\formatters.py',
+   'PYMODULE'),
+  ('IPython.lib.pretty',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\lib\\pretty.py',
+   'PYMODULE'),
+  ('IPython.lib',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\lib\\__init__.py',
+   'PYMODULE'),
+  ('IPython.utils.sentinel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\sentinel.py',
+   'PYMODULE'),
+  ('IPython.core.extensions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\extensions.py',
+   'PYMODULE'),
+  ('IPython.core.events',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\events.py',
+   'PYMODULE'),
+  ('backcall',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\backcall\\__init__.py',
+   'PYMODULE'),
+  ('backcall.backcall',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\backcall\\backcall.py',
+   'PYMODULE'),
+  ('backcall._signatures',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\backcall\\_signatures.py',
+   'PYMODULE'),
+  ('IPython.core.error',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\error.py',
+   'PYMODULE'),
+  ('IPython.core.displaypub',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\displaypub.py',
+   'PYMODULE'),
+  ('IPython.core.display_functions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\display_functions.py',
+   'PYMODULE'),
+  ('IPython.core.displayhook',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\displayhook.py',
+   'PYMODULE'),
+  ('IPython.core.display_trap',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\display_trap.py',
+   'PYMODULE'),
+  ('IPython.core.debugger',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\debugger.py',
+   'PYMODULE'),
+  ('IPython.terminal.interactiveshell',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\interactiveshell.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop.inputhook',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\inputhook.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop.async_generator',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\async_generator.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop.async_context_manager',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\async_context_manager.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop.dummy_contextvars',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\dummy_contextvars.py',
+   'PYMODULE'),
+  ('IPython.terminal.shortcuts.auto_suggest',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\shortcuts\\auto_suggest.py',
+   'PYMODULE'),
+  ('IPython.utils.tokenutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\tokenutil.py',
+   'PYMODULE'),
+  ('prompt_toolkit.document',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\document.py',
+   'PYMODULE'),
+  ('prompt_toolkit.selection',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\selection.py',
+   'PYMODULE'),
+  ('prompt_toolkit.clipboard',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.clipboard.in_memory',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\clipboard\\in_memory.py',
+   'PYMODULE'),
+  ('prompt_toolkit.clipboard.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\clipboard\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.named_commands',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\named_commands.py',
+   'PYMODULE'),
+  ('prompt_toolkit.application.run_in_terminal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\application\\run_in_terminal.py',
+   'PYMODULE'),
+  ('prompt_toolkit.application',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\application\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.application.dummy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\application\\dummy.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.defaults',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\defaults.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.posix_pipe',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\posix_pipe.py',
+   'PYMODULE'),
+  ('prompt_toolkit.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.windows10',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\windows10.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.win32',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\win32.py',
+   'PYMODULE'),
+  ('prompt_toolkit.cursor_shapes',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\cursor_shapes.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.vi_state',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\vi_state.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.vt100',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\vt100.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.flush_stdout',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\flush_stdout.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.color_depth',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\color_depth.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.defaults',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\defaults.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.conemu',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\conemu.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.plain_text',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\plain_text.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.win32_types',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\win32_types.py',
+   'PYMODULE'),
+  ('prompt_toolkit.data_structures',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\data_structures.py',
+   'PYMODULE'),
+  ('wcwidth.wcwidth',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\wcwidth\\wcwidth.py',
+   'PYMODULE'),
+  ('wcwidth.unicode_versions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\wcwidth\\unicode_versions.py',
+   'PYMODULE'),
+  ('wcwidth.table_zero',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\wcwidth\\table_zero.py',
+   'PYMODULE'),
+  ('wcwidth.table_wide',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\wcwidth\\table_wide.py',
+   'PYMODULE'),
+  ('wcwidth',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\wcwidth\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.win32_pipe',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\win32_pipe.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.vt100_parser',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\vt100_parser.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.ansi_escape_sequences',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\ansi_escape_sequences.py',
+   'PYMODULE'),
+  ('prompt_toolkit.eventloop.win32',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\eventloop\\win32.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.vt100',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\vt100.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.posix_utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\posix_utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.win32',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\win32.py',
+   'PYMODULE'),
+  ('prompt_toolkit.mouse_events',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\mouse_events.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.application.application',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\application\\application.py',
+   'PYMODULE'),
+  ('prompt_toolkit.renderer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\renderer.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.screen',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\screen.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.scrollable_pane',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\scrollable_pane.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.menus',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\menus.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.formatted_text.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion.word_completer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\word_completer.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion.nested',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\nested.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion.fuzzy_completer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\fuzzy_completer.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion.filesystem',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\filesystem.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion.deduplicate',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\deduplicate.py',
+   'PYMODULE'),
+  ('prompt_toolkit.completion.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\completion\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.margins',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\margins.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.dimension',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\dimension.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.mouse_handlers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\mouse_handlers.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.layout',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\layout.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.dummy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\dummy.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.containers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\containers.py',
+   'PYMODULE'),
+  ('prompt_toolkit.formatted_text.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.emacs_state',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\emacs_state.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.defaults',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\defaults.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.vi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\vi.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.search',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\search.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.digraphs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\digraphs.py',
+   'PYMODULE'),
+  ('prompt_toolkit.filters.app',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\filters\\app.py',
+   'PYMODULE'),
+  ('prompt_toolkit.filters.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\filters\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.mouse',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\mouse.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.emacs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\emacs.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.cpr',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\cpr.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.basic',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\basic.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.page_navigation',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\page_navigation.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.scroll',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\scroll.py',
+   'PYMODULE'),
+  ('prompt_toolkit.input.typeahead',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\input\\typeahead.py',
+   'PYMODULE'),
+  ('prompt_toolkit.cache',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\cache.py',
+   'PYMODULE'),
+  ('prompt_toolkit.application.current',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\application\\current.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.completion',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\completion.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts.prompt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\prompt.py',
+   'PYMODULE'),
+  ('prompt_toolkit.widgets.toolbars',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\widgets\\toolbars.py',
+   'PYMODULE'),
+  ('prompt_toolkit.widgets',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\widgets\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.widgets.menus',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\widgets\\menus.py',
+   'PYMODULE'),
+  ('prompt_toolkit.widgets.dialogs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\widgets\\dialogs.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.focus',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\focus.py',
+   'PYMODULE'),
+  ('prompt_toolkit.widgets.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\widgets\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.validation',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\validation.py',
+   'PYMODULE'),
+  ('prompt_toolkit.lexers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\lexers\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.lexers.pygments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\lexers\\pygments.py',
+   'PYMODULE'),
+  ('prompt_toolkit.lexers.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\lexers\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.open_in_editor',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\open_in_editor.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings.auto_suggest',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\auto_suggest.py',
+   'PYMODULE'),
+  ('prompt_toolkit.search',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\search.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.controls',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\controls.py',
+   'PYMODULE'),
+  ('prompt_toolkit.keys',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\keys.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.key_processor',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\key_processor.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.key_bindings',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\key_bindings.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding.bindings',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\bindings\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.key_binding',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\key_binding\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.buffer',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\buffer.py',
+   'PYMODULE'),
+  ('IPython.terminal.shortcuts',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\shortcuts\\__init__.py',
+   'PYMODULE'),
+  ('IPython.lib.clipboard',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\lib\\clipboard.py',
+   'PYMODULE'),
+  ('IPython.terminal.shortcuts.auto_match',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\shortcuts\\auto_match.py',
+   'PYMODULE'),
+  ('IPython.terminal.ptutils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\ptutils.py',
+   'PYMODULE'),
+  ('IPython.terminal.prompts',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\prompts.py',
+   'PYMODULE'),
+  ('IPython.terminal.pt_inputhooks',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\pt_inputhooks\\__init__.py',
+   'PYMODULE'),
+  ('IPython.terminal.magics',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\magics.py',
+   'PYMODULE'),
+  ('IPython.terminal.debugger',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\debugger.py',
+   'PYMODULE'),
+  ('IPython.terminal.embed',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\embed.py',
+   'PYMODULE'),
+  ('IPython.terminal.ipapp',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\ipapp.py',
+   'PYMODULE'),
+  ('IPython.extensions.storemagic',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\extensions\\storemagic.py',
+   'PYMODULE'),
+  ('IPython.extensions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('IPython.core.shellapp',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\shellapp.py',
+   'PYMODULE'),
+  ('IPython.core.application',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\application.py',
+   'PYMODULE'),
+  ('IPython.core.crashhandler',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\crashhandler.py',
+   'PYMODULE'),
+  ('IPython.utils.sysinfo',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\sysinfo.py',
+   'PYMODULE'),
+  ('IPython.terminal',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\terminal\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles.pygments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\pygments.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles.style',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\style.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles.named_colors',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\named_colors.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles.style_transformation',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\style_transformation.py',
+   'PYMODULE'),
+  ('prompt_toolkit.styles.defaults',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\styles\\defaults.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts.progress_bar',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\progress_bar\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts.progress_bar.formatters',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\progress_bar\\formatters.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts.progress_bar.base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\progress_bar\\base.py',
+   'PYMODULE'),
+  ('prompt_toolkit.shortcuts.dialogs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\shortcuts\\dialogs.py',
+   'PYMODULE'),
+  ('prompt_toolkit.patch_stdout',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\patch_stdout.py',
+   'PYMODULE'),
+  ('prompt_toolkit.output',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\output\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.layout.processors',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\layout\\processors.py',
+   'PYMODULE'),
+  ('prompt_toolkit.history',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\history.py',
+   'PYMODULE'),
+  ('prompt_toolkit.formatted_text',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.formatted_text.pygments',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\pygments.py',
+   'PYMODULE'),
+  ('prompt_toolkit.formatted_text.html',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\html.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.formatted_text.ansi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\formatted_text\\ansi.py',
+   'PYMODULE'),
+  ('prompt_toolkit.filters',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\filters\\__init__.py',
+   'PYMODULE'),
+  ('prompt_toolkit.filters.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\filters\\utils.py',
+   'PYMODULE'),
+  ('prompt_toolkit.filters.cli',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\filters\\cli.py',
+   'PYMODULE'),
+  ('prompt_toolkit.enums',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\enums.py',
+   'PYMODULE'),
+  ('prompt_toolkit.auto_suggest',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\prompt_toolkit\\auto_suggest.py',
+   'PYMODULE'),
+  ('IPython.core.excolors',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\excolors.py',
+   'PYMODULE'),
+  ('IPython.core.compilerop',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\compilerop.py',
+   'PYMODULE'),
+  ('IPython.core.builtin_trap',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\builtin_trap.py',
+   'PYMODULE'),
+  ('IPython.core.autocall',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\autocall.py',
+   'PYMODULE'),
+  ('IPython.core.alias',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\alias.py',
+   'PYMODULE'),
+  ('IPython.core.ultratb',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\ultratb.py',
+   'PYMODULE'),
+  ('stack_data',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\stack_data\\__init__.py',
+   'PYMODULE'),
+  ('stack_data.version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\stack_data\\version.py',
+   'PYMODULE'),
+  ('stack_data.serializing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\stack_data\\serializing.py',
+   'PYMODULE'),
+  ('stack_data.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\stack_data\\utils.py',
+   'PYMODULE'),
+  ('asttokens',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\asttokens\\__init__.py',
+   'PYMODULE'),
+  ('asttokens.asttokens',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\asttokens\\asttokens.py',
+   'PYMODULE'),
+  ('asttokens.mark_tokens',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\asttokens\\mark_tokens.py',
+   'PYMODULE'),
+  ('asttokens.astroid_compat',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\asttokens\\astroid_compat.py',
+   'PYMODULE'),
+  ('asttokens.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\asttokens\\util.py',
+   'PYMODULE'),
+  ('asttokens.line_numbers',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\asttokens\\line_numbers.py',
+   'PYMODULE'),
+  ('stack_data.formatting',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\stack_data\\formatting.py',
+   'PYMODULE'),
+  ('stack_data.core',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\stack_data\\core.py',
+   'PYMODULE'),
+  ('pure_eval',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pure_eval\\__init__.py',
+   'PYMODULE'),
+  ('pure_eval.version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pure_eval\\version.py',
+   'PYMODULE'),
+  ('pure_eval.my_getattr_static',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pure_eval\\my_getattr_static.py',
+   'PYMODULE'),
+  ('pure_eval.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pure_eval\\utils.py',
+   'PYMODULE'),
+  ('pure_eval.core',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pure_eval\\core.py',
+   'PYMODULE'),
+  ('executing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\executing\\__init__.py',
+   'PYMODULE'),
+  ('executing.version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\executing\\version.py',
+   'PYMODULE'),
+  ('executing.executing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\executing\\executing.py',
+   'PYMODULE'),
+  ('executing._position_node_finder',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\executing\\_position_node_finder.py',
+   'PYMODULE'),
+  ('executing._exceptions',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\executing\\_exceptions.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.tokenize',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lib2to3\\pgen2\\tokenize.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lib2to3\\pgen2\\__init__.py',
+   'PYMODULE'),
+  ('lib2to3',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lib2to3\\__init__.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.token',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lib2to3\\pgen2\\token.py',
+   'PYMODULE'),
+  ('IPython.core.prefilter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\prefilter.py',
+   'PYMODULE'),
+  ('IPython.core.splitinput',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\splitinput.py',
+   'PYMODULE'),
+  ('IPython.core.page',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\page.py',
+   'PYMODULE'),
+  ('IPython.utils.data',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\data.py',
+   'PYMODULE'),
+  ('IPython.core.oinspect',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\oinspect.py',
+   'PYMODULE'),
+  ('IPython.utils.wildcard',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\wildcard.py',
+   'PYMODULE'),
+  ('IPython.core.magic',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\magic.py',
+   'PYMODULE'),
+  ('IPython.core.hooks',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\hooks.py',
+   'PYMODULE'),
+  ('pickleshare',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pickleshare.py',
+   'PYMODULE'),
+  ('matplotlib_inline',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\matplotlib_inline\\__init__.py',
+   'PYMODULE'),
+  ('IPython.display',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\display.py',
+   'PYMODULE'),
+  ('IPython.lib.display',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\lib\\display.py',
+   'PYMODULE'),
+  ('wave',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\wave.py',
+   'PYMODULE'),
+  ('IPython.utils.decorators',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\decorators.py',
+   'PYMODULE'),
+  ('IPython.core.display',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\display.py',
+   'PYMODULE'),
+  ('IPython.core',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\__init__.py',
+   'PYMODULE'),
+  ('IPython.core.payloadpage',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\core\\payloadpage.py',
+   'PYMODULE'),
+  ('IPython',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\__init__.py',
+   'PYMODULE'),
+  ('ipykernel.kernelapp',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\kernelapp.py',
+   'PYMODULE'),
+  ('ipykernel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\__init__.py',
+   'PYMODULE'),
+  ('ipykernel.connect',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\connect.py',
+   'PYMODULE'),
+  ('ipykernel.serialize',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\serialize.py',
+   'PYMODULE'),
+  ('ipykernel.pickleutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\pickleutil.py',
+   'PYMODULE'),
+  ('ipykernel._version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\_version.py',
+   'PYMODULE'),
+  ('ipykernel.trio_runner',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\trio_runner.py',
+   'PYMODULE'),
+  ('ipykernel.zmqshell',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\zmqshell.py',
+   'PYMODULE'),
+  ('ipykernel.eventloops',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\eventloops.py',
+   'PYMODULE'),
+  ('IPython.lib.guisupport',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\lib\\guisupport.py',
+   'PYMODULE'),
+  ('IPython.external.qt_loaders',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\external\\qt_loaders.py',
+   'PYMODULE'),
+  ('IPython.external',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\external\\__init__.py',
+   'PYMODULE'),
+  ('ipykernel._eventloop_macos',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\_eventloop_macos.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ipykernel.gui.gtk3embed',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\gui\\gtk3embed.py',
+   'PYMODULE'),
+  ('ipykernel.gui',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\gui\\__init__.py',
+   'PYMODULE'),
+  ('ipykernel.gui.gtkembed',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\gui\\gtkembed.py',
+   'PYMODULE'),
+  ('nest_asyncio',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\nest_asyncio.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('IPython.external.qt_for_kernel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\external\\qt_for_kernel.py',
+   'PYMODULE'),
+  ('ipykernel.jsonutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\jsonutil.py',
+   'PYMODULE'),
+  ('jupyter_client._version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\_version.py',
+   'PYMODULE'),
+  ('ipykernel.displayhook',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\displayhook.py',
+   'PYMODULE'),
+  ('ipykernel.parentpoller',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\parentpoller.py',
+   'PYMODULE'),
+  ('ipykernel.ipkernel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\ipkernel.py',
+   'PYMODULE'),
+  ('ipykernel.kernelbase',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\kernelbase.py',
+   'PYMODULE'),
+  ('ipykernel.debugger',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\debugger.py',
+   'PYMODULE'),
+  ('debugpy.server.api',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\server\\api.py',
+   'PYMODULE'),
+  ('debugpy.common.util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\common\\util.py',
+   'PYMODULE'),
+  ('debugpy.common.sockets',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\common\\sockets.py',
+   'PYMODULE'),
+  ('debugpy.common.log',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\common\\log.py',
+   'PYMODULE'),
+  ('debugpy.common.timestamp',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\common\\timestamp.py',
+   'PYMODULE'),
+  ('debugpy.common.json',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\common\\json.py',
+   'PYMODULE'),
+  ('debugpy.common',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\common\\__init__.py',
+   'PYMODULE'),
+  ('debugpy.adapter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\adapter\\__init__.py',
+   'PYMODULE'),
+  ('debugpy',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\__init__.py',
+   'PYMODULE'),
+  ('debugpy.public_api',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\public_api.py',
+   'PYMODULE'),
+  ('debugpy._version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\_version.py',
+   'PYMODULE'),
+  ('debugpy.server',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\server\\__init__.py',
+   'PYMODULE'),
+  ('debugpy._vendored.force_pydevd',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\_vendored\\force_pydevd.py',
+   'PYMODULE'),
+  ('debugpy._vendored',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\_vendored\\__init__.py',
+   'PYMODULE'),
+  ('debugpy._vendored._util',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\debugpy\\_vendored\\_util.py',
+   'PYMODULE'),
+  ('jupyter_client.jsonutil',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\jsonutil.py',
+   'PYMODULE'),
+  ('zmq.utils.jsonapi',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\utils\\jsonapi.py',
+   'PYMODULE'),
+  ('zmq.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\utils\\__init__.py',
+   'PYMODULE'),
+  ('ipykernel.compiler',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\compiler.py',
+   'PYMODULE'),
+  ('ipykernel.comm.manager',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\comm\\manager.py',
+   'PYMODULE'),
+  ('ipykernel.comm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\comm\\__init__.py',
+   'PYMODULE'),
+  ('comm.base_comm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\comm\\base_comm.py',
+   'PYMODULE'),
+  ('ipykernel.comm.comm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\comm\\comm.py',
+   'PYMODULE'),
+  ('comm',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\comm\\__init__.py',
+   'PYMODULE'),
+  ('ipykernel.iostream',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\iostream.py',
+   'PYMODULE'),
+  ('ipykernel.heartbeat',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\heartbeat.py',
+   'PYMODULE'),
+  ('jupyter_client.localinterfaces',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\localinterfaces.py',
+   'PYMODULE'),
+  ('ipykernel.control',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\control.py',
+   'PYMODULE'),
+  ('zmq.eventloop.zmqstream',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\eventloop\\zmqstream.py',
+   'PYMODULE'),
+  ('zmq.eventloop',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\eventloop\\__init__.py',
+   'PYMODULE'),
+  ('zmq._typing',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\_typing.py',
+   'PYMODULE'),
+  ('zmq._future',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\_future.py',
+   'PYMODULE'),
+  ('jupyter_core.paths',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_core\\paths.py',
+   'PYMODULE'),
+  ('jupyter_core',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_core\\__init__.py',
+   'PYMODULE'),
+  ('jupyter_core.version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_core\\version.py',
+   'PYMODULE'),
+  ('ntsecuritycon',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\win32\\lib\\ntsecuritycon.py',
+   'PYMODULE'),
+  ('jupyter_core.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_core\\utils\\__init__.py',
+   'PYMODULE'),
+  ('platformdirs',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('platformdirs.android',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('platformdirs.unix',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('platformdirs.macos',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('platformdirs.windows',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('platformdirs.version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('platformdirs.api',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('jupyter_client.session',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\session.py',
+   'PYMODULE'),
+  ('jupyter_client.adapter',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\adapter.py',
+   'PYMODULE'),
+  ('zmq.asyncio',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\asyncio.py',
+   'PYMODULE'),
+  ('jupyter_client.connect',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\connect.py',
+   'PYMODULE'),
+  ('jupyter_client.ssh.tunnel',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\ssh\\tunnel.py',
+   'PYMODULE'),
+  ('jupyter_client.ssh.forward',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\ssh\\forward.py',
+   'PYMODULE'),
+  ('jupyter_client.ssh',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\ssh\\__init__.py',
+   'PYMODULE'),
+  ('jupyter_client.utils',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\utils.py',
+   'PYMODULE'),
+  ('jupyter_client',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\__init__.py',
+   'PYMODULE'),
+  ('jupyter_client.provisioning',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\provisioning\\__init__.py',
+   'PYMODULE'),
+  ('jupyter_client.provisioning.provisioner_base',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\provisioning\\provisioner_base.py',
+   'PYMODULE'),
+  ('jupyter_client.provisioning.local_provisioner',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\provisioning\\local_provisioner.py',
+   'PYMODULE'),
+  ('jupyter_client.win_interrupt',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\win_interrupt.py',
+   'PYMODULE'),
+  ('jupyter_client.provisioning.factory',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\provisioning\\factory.py',
+   'PYMODULE'),
+  ('jupyter_client.multikernelmanager',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\multikernelmanager.py',
+   'PYMODULE'),
+  ('jupyter_client.manager',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\manager.py',
+   'PYMODULE'),
+  ('jupyter_client.managerabc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\managerabc.py',
+   'PYMODULE'),
+  ('jupyter_client.launcher',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\launcher.py',
+   'PYMODULE'),
+  ('jupyter_client.client',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\client.py',
+   'PYMODULE'),
+  ('jupyter_client.clientabc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\clientabc.py',
+   'PYMODULE'),
+  ('jupyter_client.channelsabc',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\channelsabc.py',
+   'PYMODULE'),
+  ('jupyter_client.channels',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\channels.py',
+   'PYMODULE'),
+  ('jupyter_client.blocking',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\blocking\\__init__.py',
+   'PYMODULE'),
+  ('jupyter_client.blocking.client',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\blocking\\client.py',
+   'PYMODULE'),
+  ('jupyter_client.asynchronous',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\asynchronous\\__init__.py',
+   'PYMODULE'),
+  ('jupyter_client.asynchronous.client',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\asynchronous\\client.py',
+   'PYMODULE'),
+  ('jupyter_client.kernelspec',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\jupyter_client\\kernelspec.py',
+   'PYMODULE'),
+  ('ipykernel.kernelspec',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\kernelspec.py',
+   'PYMODULE'),
+  ('zmq',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\__init__.py',
+   'PYMODULE'),
+  ('zmq.backend.cython',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\backend\\cython\\__init__.py',
+   'PYMODULE'),
+  ('zmq.utils.garbage',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\utils\\garbage.py',
+   'PYMODULE'),
+  ('zmq.green',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\green\\__init__.py',
+   'PYMODULE'),
+  ('zmq.green.device',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\green\\device.py',
+   'PYMODULE'),
+  ('zmq.green.poll',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\green\\poll.py',
+   'PYMODULE'),
+  ('zmq.green.core',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\green\\core.py',
+   'PYMODULE'),
+  ('zmq.sugar',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\__init__.py',
+   'PYMODULE'),
+  ('zmq.sugar.stopwatch',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\stopwatch.py',
+   'PYMODULE'),
+  ('zmq.sugar.version',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\version.py',
+   'PYMODULE'),
+  ('zmq.sugar.tracker',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\tracker.py',
+   'PYMODULE'),
+  ('zmq.sugar.socket',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\socket.py',
+   'PYMODULE'),
+  ('zmq.sugar.attrsettr',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\attrsettr.py',
+   'PYMODULE'),
+  ('zmq.utils.interop',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\utils\\interop.py',
+   'PYMODULE'),
+  ('zmq.sugar.poll',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\poll.py',
+   'PYMODULE'),
+  ('zmq.sugar.frame',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\frame.py',
+   'PYMODULE'),
+  ('zmq.sugar.context',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\sugar\\context.py',
+   'PYMODULE'),
+  ('zmq.error',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\error.py',
+   'PYMODULE'),
+  ('zmq.constants',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\constants.py',
+   'PYMODULE'),
+  ('zmq.backend',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\backend\\__init__.py',
+   'PYMODULE'),
+  ('zmq.backend.select',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\zmq\\backend\\select.py',
+   'PYMODULE'),
+  ('ipykernel.embed',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\ipykernel\\embed.py',
+   'PYMODULE'),
+  ('IPython.utils.frame',
+   "C:\\Users\\Calvin\\OneDrive\\Nora's "
+   'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\IPython\\utils\\frame.py',
    'PYMODULE'),
   ('matplotlib.backend_managers',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
@@ -4388,30 +8098,6 @@
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pandas\\io\\formats\\xml.py',
    'PYMODULE'),
-  ('xml.dom.minidom',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\minidom.py',
-   'PYMODULE'),
-  ('xml.dom.pulldom',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\pulldom.py',
-   'PYMODULE'),
-  ('xml.dom.expatbuilder',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\expatbuilder.py',
-   'PYMODULE'),
-  ('xml.dom.NodeFilter',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\NodeFilter.py',
-   'PYMODULE'),
-  ('xml.dom.xmlbuilder',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\xmlbuilder.py',
-   'PYMODULE'),
-  ('xml.dom.minicompat',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\minicompat.py',
-   'PYMODULE'),
-  ('xml.dom.domreg',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\domreg.py',
-   'PYMODULE'),
-  ('xml.dom',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\dom\\__init__.py',
-   'PYMODULE'),
   ('pandas.io.xml',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pandas\\io\\xml.py',
@@ -4611,15 +8297,6 @@
   ('pandas.io.sql',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pandas\\io\\sql.py',
-   'PYMODULE'),
-  ('sqlite3',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\__init__.py',
-   'PYMODULE'),
-  ('sqlite3.dump',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\dump.py',
-   'PYMODULE'),
-  ('sqlite3.dbapi2',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sqlite3\\dbapi2.py',
    'PYMODULE'),
   ('pandas.io.pytables',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
@@ -4876,9 +8553,6 @@
   ('pandas.util._print_versions',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "
    'Nursery\\SoStocked\\sostocked_env\\Lib\\site-packages\\pandas\\util\\_print_versions.py',
-   'PYMODULE'),
-  ('optparse',
-   'C:\\Users\\Calvin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\optparse.py',
    'PYMODULE'),
   ('pandas.testing',
    "C:\\Users\\Calvin\\OneDrive\\Nora's "

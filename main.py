@@ -15,6 +15,7 @@ class UI(QMainWindow):
 
         # Load the ui file
         uic.loadUi("sostocked_automation.ui", self)
+        self.setWindowIcon(QtGui.QIcon('sostocked.ico'))
 
         # Define our widgets
         self.button   = self.findChild(QPushButton, "pushButton")
@@ -78,16 +79,16 @@ class UI(QMainWindow):
         """Converts Shipping Tree from Amazon Analytics Report (Units Sold) to SoStocked's bulk import template"""
         try:
             saved_location = update_inventory(self.shopify_inventory)
-        except:
-            saved_location = " Please select a file"
+        except Exception as error:
+            saved_location = f'ERROR: {error}'
         self.label_3.setText(f'Saved to: /{saved_location}')
 
     def convert_sostocked(self):
         """Converts SoStocked's transfer forecast excel to Amazon manifest file template upload"""
         try:
             saved_location = send_to_amazon(self.sostocked_shipment)
-        except:
-            saved_location = " Please select a file"
+        except Exception as error:
+            saved_location = f'ERROR: {error}'
         self.label_7.setText(f'Saved to: /{saved_location}')
 
     def convert_shipmentPacklist(self):
@@ -95,18 +96,21 @@ class UI(QMainWindow):
         try:
             sostocked_saved_location = create_shippinguploads(self.amazon_packlist)
             st_saved_location = ""
-            saved_location = f"{sostocked_saved_location}\n{st_saved_location}"
-        except:
-            saved_location = " Please select a file"
+            saved_location = f"{sostocked_saved_location}>>{st_saved_location}"
+        except Exception as error:
+            saved_location = f'ERROR: {error}'
         self.label_11.setText(f'Saved to: /{saved_location}')
 
 
 # Initialize the App
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QtGui.QIcon('sostocked.png'))
+    app.setWindowIcon(QtGui.QIcon('sostocked.ico'))
+    # app_icon = Q
     UIWindow = UI()
     app.exec()
     print(__name__)
+    # run pyqt5 designer
+    # $ designer
     # $ pyinstaller 'sostocked automations.spec'
     # $ pyinstaller --onefile --noconsole --ico=sostocked.ico --name "sostocked automations" main.py

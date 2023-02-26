@@ -124,11 +124,12 @@ def scrape_packlist(doc):
             elif 'created:' in row.lower():
                 dateCreated  = re.findall(r'Created: (.+) ', row, re.I)[0]
                 shipmentName =  re.sub(r"[/:]", "-", rows[index - 1])
-                print(f"Shipment Name IS: {shipmentName}")
                 if re.search(r'Shipment \d+', shipmentName, re.I): # multiple shipments (ST to AMZ Oct 2022 Shipment 2)
                     shipmentNumber  = re.findall(r'(Shipment \d+)', shipmentName, re.I)[0]
+                    shipmentName = re.sub(r'Shipment \d+$', '', shipmentName).strip()   # removes shipment number at the end
                 else: # only 1 shipment (ST to AMZ Oct 2022)
                     shipmentNumber = 'Shipment 1'
+                print(f"Shipment Name IS: {shipmentName} with {shipmentNumber}")
             # FBA Box ID (FBA16XNXHNS9U000004)
             elif re.match(r'^FBA\w', row, re.IGNORECASE):
                 fbaBoxIdNumber = row
@@ -154,7 +155,7 @@ def scrape_packlist(doc):
                 
         # aggregating data for the PDF summary data
         if not any(pdf_data['SKU'].str.contains(sku)): # if exists
-            pdf_data.loc[len(pdf_data)] = [productDescription, sku, quantity, unitsPerBox, 1, boxLabel, shipmentName]
+            pdf_data.loc[len(pdf_data)] = [productDescription, sku, quantity, unitsPerBox, 1, boxLabel, shipmentName, shipmentNumber]
         else:
             pdf_data.loc[pdf_data.SKU==sku, 'Qty'] += quantity
             pdf_data.loc[pdf_data.SKU==sku, 'Boxes'] += 1
@@ -166,13 +167,18 @@ def summarize_packlists(directory):
     """Scrapes all shipping & box labels in a directory & summarizes it in a excel
     Input: full directory path
     Output: Excel & PDF shipping summary"""
+    shipment_summary = pd.DataFrame()
+    detailed_summary = pd.DataFrame()
     for filename in os.listdir(directory):
         filepath = os.path.join(directory, filename)
         # checks if shipping box label
         if filename.endswith('Box Labels.pdf'):
             print(filename)
+            # appends to main df
             with fitz.open(filepath) as doc:
-                shipment_summary, detailed_summary = scrape_packlist(doc)
+                shipment_summary_temp, detailed_summary_temp = scrape_packlist(doc)
+                shipment_summary = pd.concat([shipment_summary, shipment_summary_temp], ignore_index=True)
+                detailed_summary = pd.concat([detailed_summary, detailed_summary_temp], ignore_index=True)
 
     # writing & formatting to excel
     save_location = os.path.join(directory, 'Shipping Plan Summary.xlsx')
@@ -196,16 +202,18 @@ def summarize_packlists(directory):
         # writing summary per shipment number
         start_row = 2
         for shipment_no in shipment_summary['Shipment Number'].unique():
-            shipmentData = shipment_summary[shipment_summary['Shipment Number'] == shipment_no]
+            shipmentDataDetailed = shipment_summary[shipment_summary['Shipment Number'] == shipment_no]
             # writing shipment name above table
-            shipmentName        = shipmentData['Shipment Name'].values[0]
+            shipmentName        = shipmentDataDetailed['Shipment Name'].values[0]
+            shipmentNumber      = shipmentDataDetailed['Shipment Number'].values[0]
+            shipmentTitle       = shipmentName + " " + shipmentNumber
             shipmentName_cell   = xl_rowcol_to_cell(start_row, 0)
             shipmentName_format = workbook.add_format({'font_size': 14, 'valign': 'vcenter', 'align': 'left', 'bold': True})
-            worksheet.write(shipmentName_cell, shipmentName, shipmentName_format)
+            worksheet.write(shipmentName_cell, shipmentTitle, shipmentName_format)
             start_row += 1
             # writing column headers
             pdf_cols = ['Product Description', 'SKU', 'Qty', 'PCS/Box', 'Boxes', 'Box Label #']
-            shipment_data = shipment_summary[shipment][pdf_cols]
+            shipment_data = shipmentDataDetailed[pdf_cols]
             header_format = workbook.add_format({'bold': True, 'bg_color': '#951f06', 'font_color': '#FFFFFF'})
             for col_num, value in enumerate(shipment_data.columns.values):
                 cell = xl_rowcol_to_cell(start_row, col_num)
@@ -217,8 +225,8 @@ def summarize_packlists(directory):
         # detailed summary on sheet2
         detailed_summary.to_excel(writer, index=False, sheet_name='Detailed Summary')
         worksheet2 = writer.sheets['Detailed Summary']
-        worksheet2.set_zoom(60)
-        worksheet.freeze_panes(1, 0)
+        worksheet2.set_zoom(140)
+        worksheet2.freeze_panes(1, 0)
         worksheet2.autofit()
 
     # converting shipment summary to pdf
@@ -275,7 +283,7 @@ def create_shippinguploads(file):
 
 
 if __name__ == '__main__':
-    file = os.path.join(downloads_folder, 'package-FBA170PTJ05J.pdf')
+    file = os.path.join(downloads_folder, 'package-FBA16XNY1B51 (1).pdf')
     create_shippinguploads(file)
     # with fitz.open(file) as doc:
     #     doc = fitz.open(file)

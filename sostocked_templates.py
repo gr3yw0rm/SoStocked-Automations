@@ -25,7 +25,6 @@ amazonManifestsDirectory = os.path.join(currentDirectory, 'Amazon Manifest Workf
 os.makedirs(sostockedDirectory, exist_ok=True)
 os.makedirs(amazonManifestsDirectory, exist_ok=True)
 
-
 # Master data file
 masterDataFile = os.path.join(currentDirectory, 'Master Data File.xlsx')
 activeProducts = pd.read_excel(masterDataFile, sheet_name='All Products').dropna(how='all').fillna('')
@@ -33,6 +32,7 @@ activeProducts = activeProducts.loc[activeProducts['Status'] == 'Active']
 
 # Template locations
 shipmentTemplate_location = os.path.join(currentDirectory, 'Templates', 'SoStocked-Bulk-Import-Shipment-Template.xlsx')
+
 
 def update_inventory(file='latest'):
     if file == 'latest':
@@ -75,14 +75,11 @@ def update_inventory(file='latest'):
 
     # Moves Shopify Inventory Report to dump folder
     # shutil.move(file, shopifyDirectory)
-    print(str(uploadTemplate_loc))
-    return str(uploadTemplate_loc)
+    formatted_uploadTemplate_loc = os.sep.join(os.path.normpath(uploadTemplate_loc).split(os.sep)[-2:]).replace(os.sep, '>>')
+    return str(formatted_uploadTemplate_loc)
 
 
 def send_to_amazon(file=None):
-    # if file is None:
-    #     file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-  -4436.xlsx')
-
     forecast = pd.read_excel(file)
     # Dropping Shopfy & other cols
     columns = ['SKU', 'TRANSFER', 'Units per Carton (Case)', 'Transfer Case Qty']
@@ -91,8 +88,6 @@ def send_to_amazon(file=None):
     workflowCols = ['SKU', 'Box length (in)', 'Box width (in)', 'Box height (in)', 'Box weight (lb)']
     workflowTransfers = forecast.merge(activeProducts[workflowCols], how='left', on='SKU')
 
-    
-
     # Adding empty cols to match template
     workflowTransfers.insert(2, 'Prep Owner', np.nan)
     workflowTransfers.insert(3, 'Labeling owner', np.nan)
@@ -100,42 +95,15 @@ def send_to_amazon(file=None):
 
     # Creates new & writes to template
     datetime = dt.datetime.today().strftime('%b_%d_%Y-%I_%M%p')
-    workflowTemplate = f'Amazon Manifest Workflows/Manifest Workflow Template_{datetime}.xlsx'
+    workflowTemplate = os.path.join('Amazon Manifest Workflows', f'Manifest Workflow Template_{datetime}.xlsx')
     template_location = os.path.join(currentDirectory, 'Templates', 'Manifest Workflow Template.xlsx')
     shutil.copy(template_location, workflowTemplate)
 
     with pd.ExcelWriter(workflowTemplate, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
         workflowTransfers.to_excel(writer, startrow=6, header=False, index=False, sheet_name='Create workflow – template')
 
-    return workflowTemplate
-        
-
-def split_shipment(file):
-    if not file:
-        file = os.path.join(downloadsDirectory, 'FBA16RTT5ZY7.csv')
-
-    # Getting number of rows of shipment details
-    with open(file) as f:
-        readFile = f.read()
-        nRows_details = readFile.split('\n\n')[0].count('\n')
-        nRows_sku     = readFile.split('\n"SKU"')[0].count('\n') + 1
-
-    shipmentDetails = pd.read_csv(file, delimiter=',', nrows=nRows_details, index_col=0).T
-    shipmentDetails['Shipment name'] = shipmentDetails['Shipment name'].str.replace(r'\W', ' ')
-    packList = pd.read_csv(file, delimiter=',', skiprows=nRows_sku)
-
-    # Creates new & writes to template (Deprecated)
-    sostockedImportShipmentDirectory = os.path.join(sostockedShipmentsDirectory, f"{shipmentDetails['Shipment name'][0]} - {shipmentDetails['Shipment ID'][0]}.xlsx")
-    shutil.copy(shipmentTemplate_location, sostockedImportShipmentDirectory)
-    
-    packList[['ASIN Marketplace', 'SKU Marketplace', 'FN SKU Marketplace']] = 'US'
-    packList[['Units Arrived', 'Cost Per Unit']] = 0
-    packList = packList[['ASIN Marketplace', 'ASIN', 'SKU Marketplace', 'SKU', 'FN SKU Marketplace', 'FNSKU', 'Total units', 'Units Arrived', 'Cost Per Unit']]
-
-    with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
-        packList.to_excel(writer, startrow=1, header=False, index=False, sheet_name='Edit Shipment Import Export')
-    
-    return sostockedImportShipmentDirectory
+    formatted_workflowTemplate = os.sep.join(os.path.normpath(workflowTemplate).split(os.sep)[-2:]).replace(os.sep, '>>')
+    return formatted_workflowTemplate
 
 
 def sostocked_shipment(directory):
@@ -149,11 +117,14 @@ def sostocked_shipment(directory):
     grouped_data = detailed_data.groupby(['SKU', 'Fulfillment Center']).sum().reset_index()
        
     # Creates new & writes to template for each FC
-    for i, fc in enumerate(grouped_data['Fulfillment Center'].unique()):
+    for fc in grouped_data['Fulfillment Center'].unique():
         cleanData = pd.DataFrame(columns=['ASIN Marketplace', 'ASIN', 'SKU Marketplace', 'SKU', 'FN SKU Marketplace', 
                                                 'FNSKU', 'Quantity', 'Units Arrived', 'Cost Per Unit'])
         cleanData[['SKU', 'Quantity']] = grouped_data.loc[grouped_data['Fulfillment Center'] == fc, ['SKU', 'Qty']]
-        file_name = f"SoStocked Import Shipment {i + 1} - {fc}.xlsx"
+        # extracting & combining shipment numbers 1,2,3
+        shipment_numbers = detailed_data.loc[detailed_data['Fulfillment Center'].str.contains(fc), 'Shipment Number']
+        shipment_numbers = ",".join(set(shipment_numbers.str.extract(r'(\d+)').astype(str)[0].tolist()))
+        file_name = f"SoStocked Import Shipment {shipment_numbers} - {fc}.xlsx"
         # moves sostocked blank shipment template to amazon shipment directory
         sostockedImportShipmentDirectory = os.path.join(directory, file_name)
         shutil.copy(shipmentTemplate_location, sostockedImportShipmentDirectory)
@@ -161,12 +132,13 @@ def sostocked_shipment(directory):
         with pd.ExcelWriter(sostockedImportShipmentDirectory, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
             cleanData.to_excel(writer, startrow=1, header=False, index=False, sheet_name='Edit Shipment Import Export')
 
-    return sostockedImportShipmentDirectory
+    formatted_sostockedImportShipmentDirectory = os.sep.join(os.path.normpath(sostockedImportShipmentDirectory).split(os.sep)[-3:-1]).replace(os.sep, '>>')
+    return formatted_sostockedImportShipmentDirectory
 
 
 if __name__ == '__main__':
-    # file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-20230119082749-6300 (2).xlsx')
-    # send_to_amazon(file)
-    directory = os.path.join(os.getcwd(), 'Amazon Shipments', 'ST to AMZ Oct 2022')
-    sostocked_shipment(directory)
+    file = os.path.join(downloadsDirectory, 'Nora-s-Nursery-Inc--Product-Calculations-Download-20230119082749-6300 (2).xlsx')
+    update_inventory(file)
+    # directory = os.path.join(os.getcwd(), 'Amazon Shipments', 'ST to AMZ Oct 2022')
+    # sostocked_shipment(directory)
     pass
